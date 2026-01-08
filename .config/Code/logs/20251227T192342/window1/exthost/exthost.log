@@ -1,0 +1,92 @@
+2025-12-27 19:23:43.989 [info] Extension host with pid 66184 started
+2025-12-27 19:23:43.989 [info] Skipping acquiring lock for /home/5ub4k3m1/.config/Code/User/workspaceStorage/5e2a540e6c674a189b45d62418ceab93.
+2025-12-27 19:23:44.062 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-27 19:23:44.087 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-27 19:23:44.140 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-12-27 19:23:44.146 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-27 19:23:44.205 [info] Eager extensions activated
+2025-12-27 19:23:44.265 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 19:23:44.267 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 19:23:46.802 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-12-27 19:23:46.845 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2025-12-27 19:23:47.698 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-12-27 19:23:48.307 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at VXt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2025-12-27 19:23:49.319 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+2025-12-27 19:23:49.320 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async nC._fetchModels (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:4429)
+	at async nC.getAllChatModels (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:2353)
+	at async pM.getAllChatEndpoints (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:13748)
+2025-12-27 19:23:59.426 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-27 19:23:59.440 [info] Extension host with pid 66184 exiting with code 0
+2025-12-27 19:24:00.410 [info] Extension host with pid 66676 started
+2025-12-27 19:24:00.410 [info] Skipping acquiring lock for /home/5ub4k3m1/.config/Code/User/workspaceStorage/5e2a540e6c674a189b45d62418ceab93.
+2025-12-27 19:24:00.446 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-27 19:24:00.475 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-27 19:24:00.493 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2025-12-27 19:24:01.258 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-12-27 19:24:01.405 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-27 19:24:01.458 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-12-27 19:24:01.502 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-27 19:24:01.674 [info] Eager extensions activated
+2025-12-27 19:24:01.679 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 19:24:01.680 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 19:24:01.694 [info] ExtensionService#_doActivateExtension kennylong.kubernetes-yaml-formatter, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 19:24:01.703 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 19:24:01.715 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 19:24:02.037 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at VXt.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2025-12-27 19:24:02.822 [error] Error: ENOENT: no such file or directory, open '/home/5ub4k3m1/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2025-12-27 19:24:03.095 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+2025-12-27 19:24:03.096 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async nC._fetchModels (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:4429)
+	at async nC.getAllChatModels (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:2353)
+	at async pM.getAllChatEndpoints (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5765:13748)
+2025-12-27 19:25:16.413 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onMcpCollection:terraform.mcp.server'
+2025-12-27 19:25:16.536 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-containers, startup: false, activationEvent: 'onMcpCollection:vscode-containers.mcp'
+2025-12-27 19:25:16.722 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onMcpCollection:pylanceMcp'
+2025-12-27 19:25:17.365 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-python.vscode-pylance
+2025-12-27 19:25:18.150 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'api', root cause: ms-python.python
+2025-12-27 19:25:18.535 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onCommand:json.validate'
+2025-12-27 19:25:19.096 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-27 19:25:21.359 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-12-27 19:25:21.380 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-12-27 19:25:28.995 [info] ExtensionService#_doActivateExtension mads-hartmann.bash-ide-vscode, startup: false, activationEvent: 'onLanguage:shellscript'
+2025-12-27 19:26:30.197 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-27 19:26:30.258 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.G [as deactivate] (/home/5ub4k3m1/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-linux-x64/dist/extension.js:2:684166)
+	at HX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-12-27 19:26:30.268 [error] Error: ENOENT: no such file or directory, open '/home/5ub4k3m1/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2025-12-27 19:26:30.293 [error] Error: Channel has been closed
+	at n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:2816)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:3161)
+	at T.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:45267)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:600579)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-12-27 19:26:30.297 [info] Extension host with pid 66676 exiting with code 0

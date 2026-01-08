@@ -1,0 +1,130 @@
+/*Este rice no es mio, solo cambie los colores ligeramente para que se adapten a mis preferencias.
+
+Todos los creditos van para https://github.com/adi1090x/rofi*/
+
+* {
+  font: "Iosevka Nerd Font Medium 11";
+
+  /* --- ASIGNACIÓN DE TU PALETA SWAY --- */
+
+  /* Fondos */
+  bg0     : #000000; /* $base00 - Fondo principal (Igual a tu terminal/barra) */
+  bg1     : #231a40; /* $base01 - Fondo de lista (Igual a ventanas inactivas) */
+  bg2     : #432d59; /* $base02 - Selección alternativa / Bordes suaves */
+  bg3     : #593380; /* $base03 - Color terciario */
+
+  /* Texto */
+  fg0     : #ffffff; /* Blanco puro para lectura principal (Alto contraste) */
+  fg1     : #b08ae6; /* $base05 - Lavanda (Texto secundario) */
+  fg2     : #9045e6; /* $base06 - Púrpura (Texto tenue/íconos) */
+
+  /* Colores básicos re-mapeados a tu paleta */
+  red     : #a82ee6; /* $base08 - Magenta rojizo */
+  green   : #00ff00; /* $base04 - Verde neón */
+  yellow  : #f29df2; /* $base0A - Rosado claro (Usado como amarillo/aviso) */
+  blue    : #4595e6; /* $base0B - Azul */
+  magenta : #bb66cc; /* $base09 - Púrpura rosado */
+  cyan    : #40dfff; /* $base0C - Cian */
+
+  /* --- ROLES LÓGICOS --- */
+  
+  /* Accent: Usa $base0D (#4136d9) para coincidir con tu 'client.focused' en Sway */
+  accent  : #4136d9; 
+  
+  /* Urgent: Usa $base07 (#a366ff) para coincidir con tu 'client.urgent' */
+  urgent  : #a366ff; 
+
+  background-color : transparent;
+  text-color       : @fg0;
+
+  margin  : 0;
+  padding : 0;
+  spacing : 0;
+}
+element-icon, element-text, scrollbar {
+  cursor: pointer;
+}
+
+window {
+  location : northwest;
+  width    : 400px; /*280 ES EL DEFAULT*/
+  x-offset : 4px;
+  y-offset : 26px;
+
+  background-color: @bg1;
+  border: 2px;
+  border-color: @accent;
+  border-radius: 6px;
+}
+
+inputbar {
+  spacing  : 8px;
+  padding  : 4px 8px;
+  children : [ icon-search, entry ];
+
+  background-color: @bg0;
+}
+
+icon-search, entry, element-icon, element-text {
+  vertical-align: 0.5;
+}
+
+icon-search {
+  expand   : false;
+  filename : "search-symbolic";
+  size     : 14px;
+}
+
+textbox {
+  padding          : 4px 8px;
+  background-color : @bg2;
+}
+
+listview {
+  padding      : 4px 0px;
+  lines        : 12;
+  columns      : 1;
+  scrollbar    : true;
+  fixed-height : false;
+  dynamic      : true;
+}
+
+element {
+  padding : 4px 8px;
+  spacing : 8px;
+}
+
+element normal urgent {
+  text-color: @urgent;
+}
+
+element normal active {
+  text-color: @accent;
+}
+
+element alternate active {
+  text-color: @accent;
+}
+
+element selected {
+  text-color       : @fg0;
+  background-color : @accent;
+}
+
+element selected urgent {
+  background-color: @urgent;
+}
+
+element-icon {
+  size: 0.8em;
+}
+
+element-text {
+  text-color: inherit;
+}
+
+scrollbar {
+  handle-width : 4px;
+  handle-color : @fg2;
+  padding      : 0 4px;
+}

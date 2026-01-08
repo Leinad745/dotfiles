@@ -1,0 +1,117 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "298027a6bcc0c7aec5e955b5402c8b150b2b60bd13ba742a3ffdbbf3841ad408",
+    "telemetry.devDeviceId": "b99facc6-b75d-4ef2-bbc6-57f6ca697711",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/5ub4k3m1/scripts/rendercv"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/5ub4k3m1/scripts/rendercv": "__default__profile__",
+            "file:///home/5ub4k3m1/dotfiles": "-3eb95aa1",
+            "file:///home/5ub4k3m1/ciberseguridad/htb/CTFs/Try%20Out/blockchain_notademocraticelection": "554a503d"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/5ub4k3m1/scripts/rendercv",
+            "backupPath": "/home/5ub4k3m1/.config/Code/Backups/cd5efad3c117578c5b3c6e78489d2b87",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 636,
+                "height": 1021
+            }
+        },
+        "openedWindows": []
+    },
+    "userDataProfiles": [
+        {
+            "location": "-1f35817d",
+            "name": "Analisis de Datos"
+        },
+        {
+            "location": "-669a9140",
+            "name": "Base de datos"
+        },
+        {
+            "location": "-3eb95aa1",
+            "name": "DevOps"
+        },
+        {
+            "location": "423dc13f",
+            "name": "Java"
+        },
+        {
+            "location": "196b40f3",
+            "name": "Markdown"
+        },
+        {
+            "location": "554a503d",
+            "name": "Python"
+        },
+        {
+            "location": "-47658773",
+            "name": "Web"
+        }
+    ],
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "193ded51369d96825ff532030294770e": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "5e2a540e6c674a189b45d62418ceab93": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6339de40307b3949cdd37aa6796f002e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

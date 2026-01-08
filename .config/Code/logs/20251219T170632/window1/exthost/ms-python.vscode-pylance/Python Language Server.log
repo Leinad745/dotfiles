@@ -1,0 +1,28 @@
+2025-12-19 17:06:49.078 [info] Client: Pylance client (2025.10.4) started with python extension (Unknown)
+2025-12-19 17:06:49.708 [info] (53344): Server root directory: file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-19 17:06:49.713 [info] (53344): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-19 17:06:49.742 [info] (53344): Starting service instance "<default>" for workspace ""
+2025-12-19 17:06:50.504 [info] (53344): Loading background bundle file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2025-12-19 17:06:50.523 [info] Failed to get active python environment for MCP server. MCP server disabled.
+2025-12-19 17:06:50.594 [info] (53344): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-19 17:06:50.595 [info] (53344): FG(<default>): Auto-excluding **/node_modules
+2025-12-19 17:06:50.595 [info] (53344): FG(<default>): Auto-excluding **/__pycache__
+2025-12-19 17:06:50.595 [info] (53344): FG(<default>): Auto-excluding **/.*
+2025-12-19 17:06:50.680 [info] (53344): Settings have not changed. Skipping update.
+2025-12-19 17:06:50.790 [error] (53344): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-19 17:06:50.790 [info] (53344): FG(<default>): No source files found.
+2025-12-19 17:06:51.115 [info] (53344): PQ(<default>): Priority queue background worker(2) root directory: file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-19 17:06:51.116 [info] (53344): PQ(<default>): Priority queue background worker(2) started
+2025-12-19 17:06:51.345 [info] (53344): BG(<default>): Loaded external background bundle file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-19 17:08:47.827 [info] Failed to get active python environment for MCP server. MCP server disabled.
+2025-12-19 17:08:47.865 [error] (53344): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-19 17:08:47.865 [info] (53344): FG(<default>): No source files found.
+2025-12-19 17:08:47.906 [info] (53344): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-19 17:08:47.906 [info] (53344): FG(<default>): Auto-excluding **/node_modules
+2025-12-19 17:08:47.907 [info] (53344): FG(<default>): Auto-excluding **/__pycache__
+2025-12-19 17:08:47.907 [info] (53344): FG(<default>): Auto-excluding **/.*
+2025-12-19 17:08:47.936 [info] (53344): FG(<default>): Assuming Python version 3.14.2.final.0
+2025-12-19 17:08:48.024 [error] (53344): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-19 17:08:48.024 [info] (53344): FG(<default>): No source files found.
+2025-12-19 17:08:48.055 [info] (53344): Settings have not changed. Skipping update.
+2025-12-19 17:08:50.933 [info] (53344): Settings have not changed. Skipping update.

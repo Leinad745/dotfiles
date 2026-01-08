@@ -1,0 +1,28 @@
+2026-01-01 11:42:14.736 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-01 11:42:14.736 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-01 11:42:14.736 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-01 11:42:14.736 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-01 11:42:14.751 [info] Logged in as Leinad745
+2026-01-01 11:42:14.755 [info] Using the Electron fetcher.
+2026-01-01 11:42:15.104 [error] Copilot extension not found
+2026-01-01 11:42:15.177 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-01 11:42:15.178 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-01 11:42:15.178 [info] Found 1 entries to copy: rg
+2026-01-01 11:42:15.179 [info] Found 1 entries to copy: pty.node
+2026-01-01 11:42:15.356 [info] Got Copilot token for Leinad745
+2026-01-01 11:42:15.356 [info] Copilot Chat: 0.35.2, VS Code: 1.107.1
+2026-01-01 11:42:15.364 [info] activationBlocker from 'languageModelAccess' took for 288ms
+2026-01-01 11:42:15.670 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2026-01-01 11:42:15.670 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-01 11:42:15.682 [info] Registering default platform agent...
+2026-01-01 11:42:15.683 [info] [code-referencing] Public code references are enabled.
+2026-01-01 11:42:15.683 [info] activationBlocker from 'conversationFeature' took for 611ms
+2026-01-01 11:42:15.701 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-01 11:42:15.840 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-01 11:42:15.843 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-01 11:42:15.887 [info] Fetched model metadata in 799ms 7cb77da5-c164-4e46-902d-9f202924a87a
+2026-01-01 11:42:16.018 [info] Latest entry: ccreq:latest.copilotmd
+2026-01-01 11:42:16.018 [info] ccreq:feeef094.copilotmd | markdown
+2026-01-01 11:42:21.615 [info] Refetch model metadata: Succeeded in 572ms 2def02a6-f072-4540-9b7b-c98bb1f3f912 (5EDA:31F150:A9EAD4:F0F1D3:695687CD) using electron-fetch with status 200.
+2026-01-01 11:42:22.210 [info] Refetch model metadata: Succeeded in 595ms 14867beb-0f1f-4879-85f7-bff05bc11e46 (5F3A:3FFA74:AD5ED6:F47474:695687CD) using node-fetch with status 200.
+2026-01-01 11:42:22.790 [info] Refetch model metadata: Succeeded in 580ms 10c849c8-1b25-4932-aca1-c32a3127049f (5EBA:2CB19A:AEEDA3:F5E054:695687CE) using node-http with status 200.

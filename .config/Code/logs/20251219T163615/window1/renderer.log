@@ -1,0 +1,21 @@
+2025-12-19 16:36:16.933 [info] Started local extension host with pid 31607.
+2025-12-19 16:36:18.166 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-19 16:36:18.224 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-19 16:36:18.568 [error] [Extension Host] (node:31607) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-19 16:36:18.569 [error] [Extension Host] (node:31607) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-19 16:36:19.538 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-19 16:36:19.660 [info] [perf] Render performance baseline is 18ms
+2025-12-19 16:36:20.895 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-19 17:03:41.080 [error] Canceled: Canceled
+    at k1 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37681
+    at Array.forEach (<anonymous>)
+    at zRt.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37621)
+    at e$e.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:49298)
+    at fSn.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7731)
+    at uSn.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7033)
+    at async wLt.tb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3900:15950)
+2025-12-19 17:03:41.082 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-19 17:03:41.083 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-19 17:03:41.083 [warning] Failed to update in-progress status for chat session type 'copilot-cloud-agent': Canceled

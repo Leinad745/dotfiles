@@ -1,0 +1,13 @@
+2025-12-19 16:33:38.699 [info] Started local extension host with pid 28997.
+2025-12-19 16:33:39.913 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-19 16:33:39.976 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-19 16:33:40.332 [error] [Extension Host] (node:28997) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-19 16:33:40.332 [error] [Extension Host] (node:28997) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-19 16:33:41.270 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-19 16:33:41.460 [info] [perf] Render performance baseline is 18ms
+2025-12-19 16:33:42.291 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-19 16:35:55.865 [error] CodeExpectedError: No default agent registered
+    at xdt.activateDefaultAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2200:15465)
+2025-12-19 16:35:56.874 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-19 16:36:09.672 [error] An unknown error occurred. Please consult the log for more details.

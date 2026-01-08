@@ -1,0 +1,1294 @@
+2025-12-19 16:30:55.334 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-19 16:30:55.334 [trace] [GithubAccountFilterProvider]::getFilters SKU: free_educational_quota, Internal Org: undefined, IsFcv1: false
+2025-12-19 16:30:55.334 [trace] [RelatedExtensionsFilterProvider]::getFilters looking up related extensions
+2025-12-19 16:30:55.334 [trace] [RelatedExtensionsFilterProvider]::getFilters Filters: [["X-Copilot-RelatedPluginVersion-vscodetypescriptlanguagefeatures","1.0.0"]]
+2025-12-19 16:30:55.334 [trace] [CopilotExtensionsFilterProvider]::getFilters Copilot Extension Version: undefined, Copilot Chat Extension Version: 0.35.2, Completions Core Version: 1.378.1799
+2025-12-19 16:30:55.334 [trace] [CopilotCompletionsFilterProvider]::getFilters Filters: []
+2025-12-19 16:30:55.334 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-19 16:30:55.334 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-19 16:30:55.334 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-19 16:30:55.365 [trace] [GitServiceImpl] Initial repository discovery finished: 0 repositories found.
+2025-12-19 16:30:55.645 [trace] [BaseExperimentationService] Initial fetch completed
+2025-12-19 16:30:55.685 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:30:55.685 [debug] [context keys] Updating context keys.
+2025-12-19 16:30:55.686 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:30:55.686 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:30:55.686 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:30:55.687 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:30:55.687 [error] Copilot extension not found
+2025-12-19 16:30:55.687 [trace] ChatStatusWorkspaceIndexingStatus::_writeStatusItem()
+2025-12-19 16:30:55.687 [trace] ChatStatusWorkspaceIndexingStatus::updateStatusItem(id=1): starting
+2025-12-19 16:30:55.687 [trace] [GithubAccountFilterProvider]::getFilters SKU: free_educational_quota, Internal Org: undefined, IsFcv1: false
+2025-12-19 16:30:55.687 [trace] [RelatedExtensionsFilterProvider]::getFilters looking up related extensions
+2025-12-19 16:30:55.687 [trace] [RelatedExtensionsFilterProvider]::getFilters Filters: [["X-Copilot-RelatedPluginVersion-vscodetypescriptlanguagefeatures","1.0.0"]]
+2025-12-19 16:30:55.687 [trace] [CopilotExtensionsFilterProvider]::getFilters Copilot Extension Version: undefined, Copilot Chat Extension Version: 0.35.2, Completions Core Version: 1.378.1799
+2025-12-19 16:30:55.687 [trace] [CopilotCompletionsFilterProvider]::getFilters Filters: [["X-VSCode-ExtensionRelease","stable"],["X-Copilot-ClientVersion","0.35.2"],["X-Copilot-Engine","gpt-41-copilot"]]
+2025-12-19 16:30:55.688 [trace] ChatStatusWorkspaceIndexingStatus::_writeStatusItem()
+2025-12-19 16:30:55.714 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64
+2025-12-19 16:30:55.714 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2025-12-19 16:30:55.730 [info] Found 1 entries to copy: rg
+2025-12-19 16:30:55.730 [info] Found 1 entries to copy: pty.node
+2025-12-19 16:30:55.733 [warning] GitHub login failed
+2025-12-19 16:30:55.733 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:30:55.733 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:30:55.733 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:30:55.733 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:30:55.733 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:30:55.735 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async V1.waitForChatEnabled (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:5093)
+	at async V1.run (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4977)
+	at async F7.askToUpgradeAuthPermissions (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4456): Failed to get copilot token
+2025-12-19 16:30:55.735 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-12-19 16:30:55.735 [debug] FetcherService: Using experimentation service to determine fetcher configuration.
+2025-12-19 16:30:55.735 [info] Using the Electron fetcher.
+2025-12-19 16:30:55.735 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-19 16:30:55.735 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async l$._getToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5639)
+	at async r (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5103)
+	at async l$._registerEmbeddings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5600)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async q2.waitForActivationBlockers (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3061)
+	at async /home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3820
+	at async Skt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3688)
+	at async Ky.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async Ky.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async Ky.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2025-12-19 16:30:55.735 [info] activationBlocker from 'languageModelAccess' took for 79ms
+2025-12-19 16:30:55.739 [trace] Copied node-pty prebuilds to /home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64 (attempt 1)
+2025-12-19 16:30:55.739 [trace] Copied ripgrep prebuilds to /home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64 (attempt 1)
+2025-12-19 16:30:56.122 [error] [CopilotCLISession] Failed to fetch models: Error: Failed to get token for auth info
+2025-12-19 16:30:56.124 [debug] Found 0 JSONL sessions and 0 legacy sessions
+2025-12-19 16:31:01.403 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2025-12-19 16:31:01.992 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2025-12-19 16:31:09.063 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:31:09.066 [warning] GitHub login failed
+2025-12-19 16:31:09.066 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:31:09.067 [debug] CopilotToken state changed, firing event.
+2025-12-19 16:31:09.067 [info] copilot token chat_enabled: undefined, sku: 
+2025-12-19 16:31:09.067 [debug] ConversationFeature: onDidAuthenticationChange has token: false
+2025-12-19 16:31:09.068 [debug] [context keys] Updating context keys.
+2025-12-19 16:31:09.068 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:31:09.068 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:31:09.068 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:31:09.068 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:31:09.068 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:31:09.068 [debug] Finished handling auth change event.
+2025-12-19 16:31:09.068 [info] activationBlocker from 'conversationFeature' took for 13417ms
+2025-12-19 16:31:09.070 [debug] Found 0 JSONL sessions and 0 legacy sessions
+2025-12-19 16:31:09.073 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:31:09.076 [warning] GitHub login failed
+2025-12-19 16:31:09.076 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:31:09.076 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:31:09.076 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:31:09.076 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:31:09.076 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:31:09.076 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:31:09.078 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-12-19 16:31:09.078 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-19 16:31:09.078 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async l$._getToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5639)
+	at async r (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5103)
+2025-12-19 16:31:09.078 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-19 16:31:09.078 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async l$._getToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5639)
+	at async l$._provideLanguageModelChatInfo (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:1423)
+	at async kA.$provideLanguageModelChatInfo (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:30901)
+2025-12-19 16:32:02.844 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: false.
+2025-12-19 16:32:03.044 [debug] [context keys] Window state change. Needs offline check: false, active: false, focused: true.
+2025-12-19 16:32:04.072 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2025-12-19 16:32:16.557 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2025-12-19 16:32:16.609 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2025-12-19 16:32:22.294 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2025-12-19 16:32:24.554 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2025-12-19 16:32:29.605 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] created
+2025-12-19 16:32:29.605 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] invocation #1 started; request in flight: true
+2025-12-19 16:32:29.605 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:29.605 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:29.605 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:29.605 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 19:1 between "\t\"crash-reporter-id\": \"a46a4974-72b0-4b8a-a420-73def63efc0c\"\n\t" and "\n".
+2025-12-19 16:32:29.605 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:29.605 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:29.605 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:29.612 [warning] GitHub login failed
+2025-12-19 16:32:29.612 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:29.618 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:29.618 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] got completions response in 15.922508999996353ms -- undefined
+2025-12-19 16:32:29.618 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:29.618 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:29.618 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] Return: use completions response in 16.057141999990563ms
+2025-12-19 16:32:29.618 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] invocation #1: request in flight: false -- due to provider finishing
+2025-12-19 16:32:29.618 [trace] [NES][JointCompletionsProvider][ef96][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:30.365 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] created
+2025-12-19 16:32:30.365 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] invocation #2 started; request in flight: true
+2025-12-19 16:32:30.365 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:30.365 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:30.365 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:30.365 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:1 between "\n\t" and "\n".
+2025-12-19 16:32:30.365 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:30.365 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:30.366 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:30.368 [warning] GitHub login failed
+2025-12-19 16:32:30.369 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:30.370 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:30.370 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] got completions response in 5.484985999995843ms -- undefined
+2025-12-19 16:32:30.370 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:30.370 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:30.370 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] Return: use completions response in 5.50667699999758ms
+2025-12-19 16:32:30.370 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] invocation #2: request in flight: false -- due to provider finishing
+2025-12-19 16:32:30.370 [trace] [NES][JointCompletionsProvider][1010][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:33.602 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] created
+2025-12-19 16:32:33.602 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] invocation #3 started; request in flight: true
+2025-12-19 16:32:33.602 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:33.602 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:33.602 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:33.602 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:2 between "\n\t\"" and "\"\n".
+2025-12-19 16:32:33.602 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:33.602 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:33.602 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:33.617 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] invocation #3: request in flight: false -- due to cancellation
+2025-12-19 16:32:33.627 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] created
+2025-12-19 16:32:33.627 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] invocation #4 started; request in flight: true
+2025-12-19 16:32:33.627 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:33.627 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:33.627 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:33.627 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:2 between "\n\t\"" and "\"\n".
+2025-12-19 16:32:33.627 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:33.627 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:33.627 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:33.629 [warning] GitHub login failed
+2025-12-19 16:32:33.629 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:33.629 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:33.633 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:33.633 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] got completions response in 30.953905000002123ms -- undefined
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] Return: use completions response in 30.97805099999823ms
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] got completions response in 6.444417000006069ms -- undefined
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] Return: use completions response in 6.457070999997086ms
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][9a0f][provideInlineCompletionItems] Not setting the last NES suggestion because a newer invocation exists
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] invocation #4: request in flight: false -- due to provider finishing
+2025-12-19 16:32:33.633 [trace] [NES][JointCompletionsProvider][fdc9][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:33.839 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] created
+2025-12-19 16:32:33.839 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] invocation #5 started; request in flight: true
+2025-12-19 16:32:33.839 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:33.839 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:33.839 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:33.839 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:2 between "\n\t\"" and "\"\n".
+2025-12-19 16:32:33.839 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:33.839 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:33.839 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:33.842 [warning] GitHub login failed
+2025-12-19 16:32:33.842 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:33.844 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:33.844 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] got completions response in 5.031583999996656ms -- undefined
+2025-12-19 16:32:33.844 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:33.844 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:33.844 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] Return: use completions response in 5.052513999995426ms
+2025-12-19 16:32:33.844 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] invocation #5: request in flight: false -- due to provider finishing
+2025-12-19 16:32:33.844 [trace] [NES][JointCompletionsProvider][deaf][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:35.465 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] created
+2025-12-19 16:32:35.465 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] invocation #6 started; request in flight: true
+2025-12-19 16:32:35.465 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:35.465 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:35.465 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:35.465 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:3 between "\n\t\"p" and "\"\n".
+2025-12-19 16:32:35.465 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:35.465 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:35.465 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:35.474 [warning] GitHub login failed
+2025-12-19 16:32:35.474 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:35.477 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:35.477 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] got completions response in 12.55749300000025ms -- undefined
+2025-12-19 16:32:35.477 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:35.477 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:35.477 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] Return: use completions response in 12.58833099999174ms
+2025-12-19 16:32:35.477 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] invocation #6: request in flight: false -- due to provider finishing
+2025-12-19 16:32:35.477 [trace] [NES][JointCompletionsProvider][f96f][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:35.615 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] created
+2025-12-19 16:32:35.615 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] invocation #7 started; request in flight: true
+2025-12-19 16:32:35.615 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:35.615 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:35.615 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:35.615 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:4 between "\n\t\"pa" and "\"\n".
+2025-12-19 16:32:35.615 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:35.615 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:35.615 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:35.620 [warning] GitHub login failed
+2025-12-19 16:32:35.620 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:35.622 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:35.622 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] got completions response in 7.518402999994578ms -- undefined
+2025-12-19 16:32:35.622 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:35.622 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:35.622 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] Return: use completions response in 7.546526000005542ms
+2025-12-19 16:32:35.622 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] invocation #7: request in flight: false -- due to provider finishing
+2025-12-19 16:32:35.622 [trace] [NES][JointCompletionsProvider][cddb][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:35.750 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] created
+2025-12-19 16:32:35.750 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] invocation #8 started; request in flight: true
+2025-12-19 16:32:35.750 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:35.750 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:35.750 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:35.750 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:5 between "\n\t\"pas" and "\"\n".
+2025-12-19 16:32:35.750 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:35.750 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:35.750 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:35.756 [warning] GitHub login failed
+2025-12-19 16:32:35.756 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:35.758 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:35.758 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] got completions response in 7.838984999994864ms -- undefined
+2025-12-19 16:32:35.758 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:35.758 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:35.758 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] Return: use completions response in 7.866215999994893ms
+2025-12-19 16:32:35.758 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] invocation #8: request in flight: false -- due to provider finishing
+2025-12-19 16:32:35.758 [trace] [NES][JointCompletionsProvider][6547][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:35.982 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] created
+2025-12-19 16:32:35.982 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] invocation #9 started; request in flight: true
+2025-12-19 16:32:35.982 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:35.983 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:35.983 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:35.983 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:6 between "\n\t\"pass" and "\"\n".
+2025-12-19 16:32:35.983 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:35.983 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:35.983 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:35.990 [warning] GitHub login failed
+2025-12-19 16:32:35.990 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:35.992 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:35.992 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] got completions response in 10.077757000006386ms -- undefined
+2025-12-19 16:32:35.992 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:35.992 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:35.992 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] Return: use completions response in 10.104307000001427ms
+2025-12-19 16:32:35.992 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] invocation #9: request in flight: false -- due to provider finishing
+2025-12-19 16:32:35.992 [trace] [NES][JointCompletionsProvider][bcae][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:36.259 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] created
+2025-12-19 16:32:36.259 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] invocation #10 started; request in flight: true
+2025-12-19 16:32:36.259 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:36.259 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:36.259 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:36.259 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:20 between "\n\t\"password-store\": \"" and "\"\n".
+2025-12-19 16:32:36.259 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:36.259 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:36.259 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:36.272 [warning] GitHub login failed
+2025-12-19 16:32:36.272 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:36.274 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:36.274 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] got completions response in 15.059609000003547ms -- undefined
+2025-12-19 16:32:36.274 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:36.274 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:36.274 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] Return: use completions response in 15.093212000007043ms
+2025-12-19 16:32:36.274 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] invocation #10: request in flight: false -- due to provider finishing
+2025-12-19 16:32:36.274 [trace] [NES][JointCompletionsProvider][e47d][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:37.674 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] created
+2025-12-19 16:32:37.674 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] invocation #11 started; request in flight: true
+2025-12-19 16:32:37.674 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:37.674 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:37.674 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:37.674 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:21 between "\n\t\"password-store\": \"f" and "\"\n".
+2025-12-19 16:32:37.674 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:37.674 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:37.674 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:37.681 [warning] GitHub login failed
+2025-12-19 16:32:37.681 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:37.683 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:37.683 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] got completions response in 9.782122000004165ms -- undefined
+2025-12-19 16:32:37.683 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:37.683 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:37.683 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] Return: use completions response in 9.809093000003486ms
+2025-12-19 16:32:37.683 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] invocation #11: request in flight: false -- due to provider finishing
+2025-12-19 16:32:37.683 [trace] [NES][JointCompletionsProvider][8149][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:37.692 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] created
+2025-12-19 16:32:37.692 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] invocation #12 started; request in flight: true
+2025-12-19 16:32:37.692 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:37.692 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:37.692 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:37.692 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:21 between "\n\t\"password-store\": \"f" and "\"\n".
+2025-12-19 16:32:37.692 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:37.692 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:37.692 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:37.694 [warning] GitHub login failed
+2025-12-19 16:32:37.694 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:37.695 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:37.695 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] got completions response in 4.1167279999936ms -- undefined
+2025-12-19 16:32:37.695 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:37.695 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:37.695 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] Return: use completions response in 4.131134999988717ms
+2025-12-19 16:32:37.695 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] invocation #12: request in flight: false -- due to provider finishing
+2025-12-19 16:32:37.695 [trace] [NES][JointCompletionsProvider][8d6b][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:38.587 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] created
+2025-12-19 16:32:38.587 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] invocation #13 started; request in flight: true
+2025-12-19 16:32:38.587 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:38.587 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:38.587 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:38.587 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:20 between "\n\t\"password-store\": \"" and "\"\n".
+2025-12-19 16:32:38.587 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:38.587 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:38.587 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:38.590 [warning] GitHub login failed
+2025-12-19 16:32:38.590 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:38.592 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:38.593 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] got completions response in 6.093378000005032ms -- undefined
+2025-12-19 16:32:38.593 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:38.593 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:38.593 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] Return: use completions response in 6.115109000005759ms
+2025-12-19 16:32:38.593 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] invocation #13: request in flight: false -- due to provider finishing
+2025-12-19 16:32:38.593 [trace] [NES][JointCompletionsProvider][8e16][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:39.539 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] created
+2025-12-19 16:32:39.540 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] invocation #14 started; request in flight: true
+2025-12-19 16:32:39.540 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:39.540 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:39.540 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:39.540 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:21 between "\n\t\"password-store\": \"g" and "\"\n".
+2025-12-19 16:32:39.540 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:39.540 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:39.540 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:39.543 [warning] GitHub login failed
+2025-12-19 16:32:39.543 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:39.545 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:39.545 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] got completions response in 5.689931000000797ms -- undefined
+2025-12-19 16:32:39.545 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:39.545 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:39.545 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] Return: use completions response in 5.705780999996932ms
+2025-12-19 16:32:39.545 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] invocation #14: request in flight: false -- due to provider finishing
+2025-12-19 16:32:39.545 [trace] [NES][JointCompletionsProvider][c861][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:39.688 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] created
+2025-12-19 16:32:39.688 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] invocation #15 started; request in flight: true
+2025-12-19 16:32:39.688 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:39.688 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:39.688 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:39.688 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:22 between "\n\t\"password-store\": \"gn" and "\"\n".
+2025-12-19 16:32:39.688 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:39.688 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:39.688 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:39.696 [warning] GitHub login failed
+2025-12-19 16:32:39.696 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:39.697 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:39.697 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] got completions response in 9.535149000003003ms -- undefined
+2025-12-19 16:32:39.697 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:39.697 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:39.697 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] Return: use completions response in 9.551610000009532ms
+2025-12-19 16:32:39.697 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] invocation #15: request in flight: false -- due to provider finishing
+2025-12-19 16:32:39.697 [trace] [NES][JointCompletionsProvider][99a8][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:40.299 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] created
+2025-12-19 16:32:40.299 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] invocation #16 started; request in flight: true
+2025-12-19 16:32:40.299 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:40.299 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:40.299 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:40.299 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:23 between "\n\t\"password-store\": \"gno" and "\"\n".
+2025-12-19 16:32:40.299 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:40.299 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:40.299 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:40.307 [warning] GitHub login failed
+2025-12-19 16:32:40.307 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:40.309 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:40.309 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] got completions response in 10.118203999998514ms -- undefined
+2025-12-19 16:32:40.309 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:40.309 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:40.309 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] Return: use completions response in 10.136308000001009ms
+2025-12-19 16:32:40.309 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] invocation #16: request in flight: false -- due to provider finishing
+2025-12-19 16:32:40.309 [trace] [NES][JointCompletionsProvider][12d9][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:40.560 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] created
+2025-12-19 16:32:40.560 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] invocation #17 started; request in flight: true
+2025-12-19 16:32:40.560 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:40.560 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:40.560 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:40.560 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:24 between "\n\t\"password-store\": \"gnom" and "\"\n".
+2025-12-19 16:32:40.560 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:40.560 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:40.560 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:40.563 [warning] GitHub login failed
+2025-12-19 16:32:40.563 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:40.565 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:40.565 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] got completions response in 5.663582000008319ms -- undefined
+2025-12-19 16:32:40.565 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:40.565 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:40.565 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] Return: use completions response in 5.680884000001242ms
+2025-12-19 16:32:40.565 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] invocation #17: request in flight: false -- due to provider finishing
+2025-12-19 16:32:40.565 [trace] [NES][JointCompletionsProvider][f3a5][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:40.749 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] created
+2025-12-19 16:32:40.749 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] invocation #18 started; request in flight: true
+2025-12-19 16:32:40.749 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:40.749 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:40.749 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:40.749 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:25 between "\n\t\"password-store\": \"gnome" and "\"\n".
+2025-12-19 16:32:40.750 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:40.750 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:40.750 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:40.756 [warning] GitHub login failed
+2025-12-19 16:32:40.756 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:40.758 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:40.758 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] got completions response in 8.586186999993515ms -- undefined
+2025-12-19 16:32:40.758 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:40.758 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:40.758 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] Return: use completions response in 8.603971000004094ms
+2025-12-19 16:32:40.758 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] invocation #18: request in flight: false -- due to provider finishing
+2025-12-19 16:32:40.758 [trace] [NES][JointCompletionsProvider][bd0f][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:42.278 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] created
+2025-12-19 16:32:42.278 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] invocation #19 started; request in flight: true
+2025-12-19 16:32:42.278 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:42.278 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:42.278 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:42.278 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:26 between "\n\t\"password-store\": \"gnome_" and "\"\n".
+2025-12-19 16:32:42.278 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:42.278 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:42.278 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:42.285 [warning] GitHub login failed
+2025-12-19 16:32:42.285 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:42.287 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:42.287 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] got completions response in 8.943247999995947ms -- undefined
+2025-12-19 16:32:42.287 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:42.287 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:42.287 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] Return: use completions response in 8.973656000001938ms
+2025-12-19 16:32:42.287 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] invocation #19: request in flight: false -- due to provider finishing
+2025-12-19 16:32:42.287 [trace] [NES][JointCompletionsProvider][0f3c][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:42.786 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] created
+2025-12-19 16:32:42.786 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] invocation #20 started; request in flight: true
+2025-12-19 16:32:42.786 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:42.786 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:42.786 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:42.786 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:27 between "\n\t\"password-store\": \"gnome_ñ" and "\"\n".
+2025-12-19 16:32:42.786 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:42.786 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:42.786 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:42.791 [warning] GitHub login failed
+2025-12-19 16:32:42.792 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:42.793 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:42.793 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] got completions response in 8.269593999997596ms -- undefined
+2025-12-19 16:32:42.793 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:42.793 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:42.793 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] Return: use completions response in 8.291545000000042ms
+2025-12-19 16:32:42.793 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] invocation #20: request in flight: false -- due to provider finishing
+2025-12-19 16:32:42.793 [trace] [NES][JointCompletionsProvider][f357][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:43.250 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] created
+2025-12-19 16:32:43.250 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] invocation #21 started; request in flight: true
+2025-12-19 16:32:43.250 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:43.250 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:43.250 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:43.250 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:26 between "\n\t\"password-store\": \"gnome_" and "\"\n".
+2025-12-19 16:32:43.250 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:43.250 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:43.250 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:43.256 [warning] GitHub login failed
+2025-12-19 16:32:43.257 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:43.258 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:43.258 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] got completions response in 8.670375000001513ms -- undefined
+2025-12-19 16:32:43.258 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:43.258 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:43.258 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] Return: use completions response in 8.688528999991831ms
+2025-12-19 16:32:43.258 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] invocation #21: request in flight: false -- due to provider finishing
+2025-12-19 16:32:43.258 [trace] [NES][JointCompletionsProvider][0d7b][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:43.440 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] created
+2025-12-19 16:32:43.440 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] invocation #22 started; request in flight: true
+2025-12-19 16:32:43.440 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:43.440 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:43.440 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:43.440 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:27 between "\n\t\"password-store\": \"gnome_l" and "\"\n".
+2025-12-19 16:32:43.440 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:43.440 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:43.440 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:43.445 [warning] GitHub login failed
+2025-12-19 16:32:43.445 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:43.447 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:43.447 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] got completions response in 7.439484000002267ms -- undefined
+2025-12-19 16:32:43.447 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:43.447 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:43.447 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] Return: use completions response in 7.461035000000265ms
+2025-12-19 16:32:43.447 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] invocation #22: request in flight: false -- due to provider finishing
+2025-12-19 16:32:43.447 [trace] [NES][JointCompletionsProvider][d26c][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:43.651 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] created
+2025-12-19 16:32:43.651 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] invocation #23 started; request in flight: true
+2025-12-19 16:32:43.651 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:43.651 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:43.651 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:43.651 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:28 between "\n\t\"password-store\": \"gnome_li" and "\"\n".
+2025-12-19 16:32:43.651 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:43.651 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:43.651 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:43.655 [warning] GitHub login failed
+2025-12-19 16:32:43.655 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:43.656 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:43.656 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] got completions response in 6.10637300000235ms -- undefined
+2025-12-19 16:32:43.656 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:43.656 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:43.656 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] Return: use completions response in 6.123584999993909ms
+2025-12-19 16:32:43.656 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] invocation #23: request in flight: false -- due to provider finishing
+2025-12-19 16:32:43.656 [trace] [NES][JointCompletionsProvider][4951][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:43.792 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] created
+2025-12-19 16:32:43.792 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] invocation #24 started; request in flight: true
+2025-12-19 16:32:43.792 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:43.792 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:43.792 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:43.792 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:29 between "\n\t\"password-store\": \"gnome_lib" and "\"\n".
+2025-12-19 16:32:43.792 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:43.792 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:43.792 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:43.799 [warning] GitHub login failed
+2025-12-19 16:32:43.799 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:43.800 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:43.800 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] got completions response in 8.710531000004266ms -- undefined
+2025-12-19 16:32:43.800 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:43.800 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:43.800 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] Return: use completions response in 8.759924000012688ms
+2025-12-19 16:32:43.800 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] invocation #24: request in flight: false -- due to provider finishing
+2025-12-19 16:32:43.801 [trace] [NES][JointCompletionsProvider][fce0][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:44.153 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] created
+2025-12-19 16:32:44.153 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] invocation #25 started; request in flight: true
+2025-12-19 16:32:44.153 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:44.153 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:44.153 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:44.153 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:30 between "\n\t\"password-store\": \"gnome_libs" and "\"\n".
+2025-12-19 16:32:44.153 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:44.153 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:44.153 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:44.160 [warning] GitHub login failed
+2025-12-19 16:32:44.161 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:44.162 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:44.162 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] got completions response in 9.837586999987252ms -- undefined
+2025-12-19 16:32:44.162 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:44.162 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:44.162 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] Return: use completions response in 9.859036999987438ms
+2025-12-19 16:32:44.162 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] invocation #25: request in flight: false -- due to provider finishing
+2025-12-19 16:32:44.162 [trace] [NES][JointCompletionsProvider][73d5][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:44.329 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] created
+2025-12-19 16:32:44.329 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] invocation #26 started; request in flight: true
+2025-12-19 16:32:44.329 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:44.329 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:44.329 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:44.329 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:31 between "\n\t\"password-store\": \"gnome_libse" and "\"\n".
+2025-12-19 16:32:44.329 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:44.329 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:44.329 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:44.334 [warning] GitHub login failed
+2025-12-19 16:32:44.334 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:44.336 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:44.336 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] got completions response in 8.513741999995545ms -- undefined
+2025-12-19 16:32:44.336 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:44.336 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:44.336 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] Return: use completions response in 8.532536999991862ms
+2025-12-19 16:32:44.336 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] invocation #26: request in flight: false -- due to provider finishing
+2025-12-19 16:32:44.336 [trace] [NES][JointCompletionsProvider][47df][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:44.595 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] created
+2025-12-19 16:32:44.595 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] invocation #27 started; request in flight: true
+2025-12-19 16:32:44.595 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:44.595 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:44.595 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:44.595 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:32 between "\n\t\"password-store\": \"gnome_libsec" and "\"\n".
+2025-12-19 16:32:44.595 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:44.595 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:44.595 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:44.598 [warning] GitHub login failed
+2025-12-19 16:32:44.598 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:44.599 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:44.599 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] got completions response in 5.203978999998071ms -- undefined
+2025-12-19 16:32:44.599 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:44.599 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:44.599 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] Return: use completions response in 5.231981999997515ms
+2025-12-19 16:32:44.599 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] invocation #27: request in flight: false -- due to provider finishing
+2025-12-19 16:32:44.599 [trace] [NES][JointCompletionsProvider][5a18][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:44.726 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] created
+2025-12-19 16:32:44.726 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] invocation #28 started; request in flight: true
+2025-12-19 16:32:44.726 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:44.726 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:44.726 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:44.726 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:33 between "\n\t\"password-store\": \"gnome_libsece" and "\"\n".
+2025-12-19 16:32:44.726 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:44.726 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:44.726 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:44.729 [warning] GitHub login failed
+2025-12-19 16:32:44.729 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:44.731 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:44.731 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] got completions response in 5.290772000007564ms -- undefined
+2025-12-19 16:32:44.731 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:44.731 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:44.731 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] Return: use completions response in 5.304768000001786ms
+2025-12-19 16:32:44.731 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] invocation #28: request in flight: false -- due to provider finishing
+2025-12-19 16:32:44.731 [trace] [NES][JointCompletionsProvider][3967][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:44.999 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] created
+2025-12-19 16:32:44.999 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] invocation #29 started; request in flight: true
+2025-12-19 16:32:44.999 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:44.999 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:44.999 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:44.999 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:34 between "\n\t\"password-store\": \"gnome_libsecer" and "\"\n".
+2025-12-19 16:32:44.999 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:44.999 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:44.999 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:45.006 [warning] GitHub login failed
+2025-12-19 16:32:45.006 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:45.007 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:45.007 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] got completions response in 8.435245000000577ms -- undefined
+2025-12-19 16:32:45.007 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:45.007 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:45.007 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] Return: use completions response in 8.450964000003296ms
+2025-12-19 16:32:45.007 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] invocation #29: request in flight: false -- due to provider finishing
+2025-12-19 16:32:45.007 [trace] [NES][JointCompletionsProvider][1d04][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:45.238 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] created
+2025-12-19 16:32:45.238 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] invocation #30 started; request in flight: true
+2025-12-19 16:32:45.238 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:45.238 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:45.238 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:45.238 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:35 between "\n\t\"password-store\": \"gnome_libsecers" and "\"\n".
+2025-12-19 16:32:45.238 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:45.238 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:45.238 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:45.243 [warning] GitHub login failed
+2025-12-19 16:32:45.243 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:45.245 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:45.245 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] got completions response in 7.066424999997253ms -- undefined
+2025-12-19 16:32:45.245 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:45.245 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:45.245 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] Return: use completions response in 7.081724000003305ms
+2025-12-19 16:32:45.245 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] invocation #30: request in flight: false -- due to provider finishing
+2025-12-19 16:32:45.245 [trace] [NES][JointCompletionsProvider][0fd7][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:48.107 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] created
+2025-12-19 16:32:48.107 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] invocation #31 started; request in flight: true
+2025-12-19 16:32:48.107 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:48.107 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:48.107 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:48.107 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:34 between "\n\t\"password-store\": \"gnome_libsecer" and "\"\n".
+2025-12-19 16:32:48.107 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:48.107 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:48.107 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:48.111 [warning] GitHub login failed
+2025-12-19 16:32:48.111 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:48.112 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:48.112 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] got completions response in 5.772246000007726ms -- undefined
+2025-12-19 16:32:48.112 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:48.112 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:48.112 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] Return: use completions response in 5.786563000001479ms
+2025-12-19 16:32:48.112 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] invocation #31: request in flight: false -- due to provider finishing
+2025-12-19 16:32:48.112 [trace] [NES][JointCompletionsProvider][e596][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:48.380 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] created
+2025-12-19 16:32:48.380 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] invocation #32 started; request in flight: true
+2025-12-19 16:32:48.380 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:48.380 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:48.380 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:48.380 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:33 between "\n\t\"password-store\": \"gnome_libsece" and "\"\n".
+2025-12-19 16:32:48.380 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:48.380 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:48.380 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:48.383 [warning] GitHub login failed
+2025-12-19 16:32:48.383 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:48.385 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:48.385 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] got completions response in 4.682619999992312ms -- undefined
+2025-12-19 16:32:48.385 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:48.385 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:48.385 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] Return: use completions response in 4.698770000002696ms
+2025-12-19 16:32:48.385 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] invocation #32: request in flight: false -- due to provider finishing
+2025-12-19 16:32:48.385 [trace] [NES][JointCompletionsProvider][2468][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:48.657 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] created
+2025-12-19 16:32:48.657 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] invocation #33 started; request in flight: true
+2025-12-19 16:32:48.657 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:48.657 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:48.657 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:48.657 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:32 between "\n\t\"password-store\": \"gnome_libsec" and "\"\n".
+2025-12-19 16:32:48.657 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:48.657 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:48.657 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:48.660 [warning] GitHub login failed
+2025-12-19 16:32:48.660 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:48.662 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:48.662 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] got completions response in 5.3713929999939865ms -- undefined
+2025-12-19 16:32:48.662 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:48.662 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:48.662 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] Return: use completions response in 5.389436999990721ms
+2025-12-19 16:32:48.662 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] invocation #33: request in flight: false -- due to provider finishing
+2025-12-19 16:32:48.662 [trace] [NES][JointCompletionsProvider][d3ad][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:48.812 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] created
+2025-12-19 16:32:48.812 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] invocation #34 started; request in flight: true
+2025-12-19 16:32:48.812 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:48.812 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:48.812 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:48.812 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:33 between "\n\t\"password-store\": \"gnome_libsecr" and "\"\n".
+2025-12-19 16:32:48.812 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:48.812 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:48.812 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:48.814 [warning] GitHub login failed
+2025-12-19 16:32:48.814 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:48.815 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:48.815 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] got completions response in 4.179755999997724ms -- undefined
+2025-12-19 16:32:48.815 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:48.815 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:48.815 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] Return: use completions response in 4.207437999997637ms
+2025-12-19 16:32:48.815 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] invocation #34: request in flight: false -- due to provider finishing
+2025-12-19 16:32:48.815 [trace] [NES][JointCompletionsProvider][2a9b][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:48.910 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] created
+2025-12-19 16:32:48.910 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] invocation #35 started; request in flight: true
+2025-12-19 16:32:48.910 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:48.910 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:48.910 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:48.910 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:34 between "\n\t\"password-store\": \"gnome_libsecre" and "\"\n".
+2025-12-19 16:32:48.910 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:48.910 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:48.910 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:48.916 [warning] GitHub login failed
+2025-12-19 16:32:48.916 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:48.917 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:48.917 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] got completions response in 7.147887999992236ms -- undefined
+2025-12-19 16:32:48.917 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:48.917 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:48.917 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] Return: use completions response in 7.163046999994549ms
+2025-12-19 16:32:48.917 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] invocation #35: request in flight: false -- due to provider finishing
+2025-12-19 16:32:48.917 [trace] [NES][JointCompletionsProvider][34db][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:49.200 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] created
+2025-12-19 16:32:49.200 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] invocation #36 started; request in flight: true
+2025-12-19 16:32:49.200 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:49.200 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:49.200 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:49.200 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:35 between "\n\t\"password-store\": \"gnome_libsecret" and "\"\n".
+2025-12-19 16:32:49.200 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:49.200 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:49.200 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:49.204 [warning] GitHub login failed
+2025-12-19 16:32:49.204 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:49.206 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:49.206 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] got completions response in 6.05299300000479ms -- undefined
+2025-12-19 16:32:49.206 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:49.206 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:49.206 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] Return: use completions response in 6.074593000012101ms
+2025-12-19 16:32:49.206 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] invocation #36: request in flight: false -- due to provider finishing
+2025-12-19 16:32:49.206 [trace] [NES][JointCompletionsProvider][c500][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:54.200 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:54.202 [warning] GitHub login failed
+2025-12-19 16:32:54.202 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:55.129 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] created
+2025-12-19 16:32:55.129 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] invocation #37 started; request in flight: true
+2025-12-19 16:32:55.129 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:55.129 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:55.129 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:55.129 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:2 between "\n\t." and "\"password-store\": \"gnome_libsecret\"\n".
+2025-12-19 16:32:55.129 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:55.129 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:55.129 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:55.133 [warning] GitHub login failed
+2025-12-19 16:32:55.133 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:55.134 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:55.135 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] got completions response in 6.159060999998474ms -- undefined
+2025-12-19 16:32:55.135 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:55.135 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:55.135 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] Return: use completions response in 6.184819999994943ms
+2025-12-19 16:32:55.135 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] invocation #37: request in flight: false -- due to provider finishing
+2025-12-19 16:32:55.135 [trace] [NES][JointCompletionsProvider][0e52][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:56.392 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] created
+2025-12-19 16:32:56.392 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] invocation #38 started; request in flight: true
+2025-12-19 16:32:56.392 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:56.392 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:56.392 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:56.392 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:1 between "\n\t" and "\"password-store\": \"gnome_libsecret\"\n".
+2025-12-19 16:32:56.392 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:56.392 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:56.392 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:56.396 [warning] GitHub login failed
+2025-12-19 16:32:56.396 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:56.397 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:56.397 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] got completions response in 5.498230999990483ms -- undefined
+2025-12-19 16:32:56.397 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:56.397 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:56.397 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] Return: use completions response in 5.51243699999759ms
+2025-12-19 16:32:56.397 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] invocation #38: request in flight: false -- due to provider finishing
+2025-12-19 16:32:56.397 [trace] [NES][JointCompletionsProvider][2fbc][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:32:56.650 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] created
+2025-12-19 16:32:56.650 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] invocation #39 started; request in flight: true
+2025-12-19 16:32:56.650 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] requesting completions and/or NES
+2025-12-19 16:32:56.650 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] defaulting to yielding to completions; last NES suggestion is not available
+2025-12-19 16:32:56.650 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] - requesting completions provideInlineCompletionItems
+2025-12-19 16:32:56.650 [debug] [getCompletions] Requesting for file:///home/5ub4k3m1/.vscode/argv.json at 20:2 between "\n\t," and "\"password-store\": \"gnome_libsecret\"\n".
+2025-12-19 16:32:56.650 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:32:56.650 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] - no NES provider
+2025-12-19 16:32:56.650 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] waiting for completions and/or NES responses
+2025-12-19 16:32:56.653 [warning] GitHub login failed
+2025-12-19 16:32:56.653 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:32:56.656 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async z8.updateCachedToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2106:31762)
+	at async rO.updateExPValuesAndAssignments (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2112:3591)
+	at async poi (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:9954)
+	at async Bdt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2349:6870)
+	at async vli (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:1294)
+	at async cQe (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:2356:2148)
+	at async dK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4383:3975)
+	at async AK._provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1572)
+	at async AK.provideInlineCompletionItems (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:4399:1015)]
+2025-12-19 16:32:56.656 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] got completions response in 5.899374000000535ms -- undefined
+2025-12-19 16:32:56.656 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] completions response received
+2025-12-19 16:32:56.656 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] NES response received
+2025-12-19 16:32:56.656 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] Return: use completions response in 5.917388000001665ms
+2025-12-19 16:32:56.656 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] invocation #39: request in flight: false -- due to provider finishing
+2025-12-19 16:32:56.656 [trace] [NES][JointCompletionsProvider][71e6][provideInlineCompletionItems] Cleared the last NES suggestion
+2025-12-19 16:33:01.650 [debug] Getting CopilotToken (force: undefined)...
+2025-12-19 16:33:01.653 [warning] GitHub login failed
+2025-12-19 16:33:01.653 [debug] Getting CopilotToken (force: undefined) threw error: Error: GitHubLoginFailed
+2025-12-19 16:33:21.140 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2025-12-19 16:33:21.465 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.
+2025-12-19 16:33:21.813 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: false.
+2025-12-19 16:33:27.690 [debug] [context keys] Window state change. Needs offline check: false, active: true, focused: true.

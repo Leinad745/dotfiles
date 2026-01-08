@@ -1,0 +1,20 @@
+2025-12-21 09:33:37.164 [info] (47789): Server root directory: file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-21 09:33:37.164 [info] (47789): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-21 09:33:37.166 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2025-12-21 09:33:37.194 [info] (47789): Starting service instance "<default>" for workspace ""
+2025-12-21 09:33:37.824 [info] (47789): Loading background bundle file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2025-12-21 09:33:37.923 [info] (47789): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.2"
+2025-12-21 09:33:37.923 [info] (47789): FG(<default>): Setting pythonPath for service "<default>": "/bin/python"
+2025-12-21 09:33:37.923 [info] (47789): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-21 09:33:37.924 [info] (47789): FG(<default>): Auto-excluding **/node_modules
+2025-12-21 09:33:37.924 [info] (47789): FG(<default>): Auto-excluding **/__pycache__
+2025-12-21 09:33:37.924 [info] (47789): FG(<default>): Auto-excluding **/.*
+2025-12-21 09:33:37.946 [info] (47789): FG(<default>): Assuming Python version 3.14.2.final.0
+2025-12-21 09:33:38.052 [info] (47789): Settings have not changed. Skipping update.
+2025-12-21 09:33:38.053 [info] (47789): Starting Mcp server id:3430 ...
+2025-12-21 09:33:38.061 [error] (47789): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-21 09:33:38.061 [info] (47789): FG(<default>): No source files found.
+2025-12-21 09:33:38.062 [info] (47789): Settings have not changed. Skipping update.
+2025-12-21 09:33:38.367 [info] (47789): PQ(<default>): Priority queue background worker(2) root directory: file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-21 09:33:38.368 [info] (47789): PQ(<default>): Priority queue background worker(2) started
+2025-12-21 09:33:38.603 [info] (47789): BG(<default>): Loaded external background bundle file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 

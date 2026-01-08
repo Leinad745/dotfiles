@@ -1,0 +1,19 @@
+2025-12-27 19:25:19.901 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2025-12-27 19:25:20.425 [info] (69587): Server root directory: file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-27 19:25:20.425 [info] (69587): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-27 19:25:20.434 [info] (69587): Starting service instance "dotfiles" for workspace "/home/5ub4k3m1/dotfiles"
+2025-12-27 19:25:21.140 [info] (69587): Loading background bundle file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/5ub4k3m1/dotfiles...
+2025-12-27 19:25:21.219 [info] (69587): Starting Mcp server id:5778 ...
+2025-12-27 19:25:21.249 [info] (69587): FG(dotfiles): Setting environmentName for service "dotfiles": "Python 3.14.2"
+2025-12-27 19:25:21.249 [info] (69587): FG(dotfiles): Setting pythonPath for service "dotfiles": "/bin/python"
+2025-12-27 19:25:21.249 [info] (69587): FG(dotfiles): No include entries specified; assuming /home/5ub4k3m1/dotfiles
+2025-12-27 19:25:21.250 [info] (69587): FG(dotfiles): Auto-excluding **/node_modules
+2025-12-27 19:25:21.250 [info] (69587): FG(dotfiles): Auto-excluding **/__pycache__
+2025-12-27 19:25:21.250 [info] (69587): FG(dotfiles): Auto-excluding **/.*
+2025-12-27 19:25:21.276 [info] (69587): FG(dotfiles): Assuming Python version 3.14.2.final.0
+2025-12-27 19:25:21.363 [info] (69587): FG(dotfiles): No source files found.
+2025-12-27 19:25:21.378 [info] (69587): Settings have not changed. Skipping update.
+2025-12-27 19:25:21.385 [info] (69587): Settings have not changed. Skipping update.
+2025-12-27 19:25:21.703 [info] (69587): PQ(dotfiles): Priority queue background worker(2) root directory: file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-27 19:25:21.704 [info] (69587): PQ(dotfiles): Priority queue background worker(2) started
+2025-12-27 19:25:21.937 [info] (69587): BG(dotfiles): Loaded external background bundle file:///home/5ub4k3m1/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 

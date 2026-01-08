@@ -1,0 +1,10 @@
+2026-01-01 11:42:12.825 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-01-01 11:42:12.995 [info] Started local extension host with pid 80192.
+2026-01-01 11:42:13.421 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-01 11:42:13.676 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-01 11:42:14.378 [error] [Extension Host] (node:80192) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-01 11:42:14.379 [error] [Extension Host] (node:80192) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-01 11:42:15.187 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-01 11:42:15.636 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-01 11:42:15.674 [info] [perf] Render performance baseline is 19ms

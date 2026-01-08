@@ -1,0 +1,175 @@
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#initialize
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#updatePolicyDefinitions ["update.mode","update.channel","update.showReleaseNotes","http.useLocalProxyConfiguration","http.electronFetch","http.proxy","http.proxyStrictSSL","http.proxyKerberosServicePrincipal","http.noProxy","http.proxyAuthorization","http.proxySupport","http.systemCertificates","http.systemCertificatesNode","http.experimental.systemCertificatesV2","http.fetchAdditionalSupport","http.experimental.networkInterfaceCheckInterval","telemetry.telemetryLevel","telemetry.feedback.enabled","telemetry.enableTelemetry","extensions.allowed"]
+2025-12-19 16:30:51.741 [trace] [File Watcher (node.js)] Request to start watching: /etc/vscode/policy.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#update ["update.mode","telemetry.telemetryLevel","telemetry.feedback.enabled","extensions.allowed"]
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#updatePolicyDefinitions ["update.enableWindowsBackgroundUpdates"]
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#update []
+2025-12-19 16:30:51.741 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: /etc/vscode/policy.json (error: Error: ENOENT: no such file or directory, stat '/etc/vscode/policy.json')
+2025-12-19 16:30:51.741 [trace] [File Watcher (node.js)] starting fs.watchFile() on /etc/vscode/policy.json (correlationId: undefined)
+2025-12-19 16:30:51.741 [debug] Starting VS Code
+2025-12-19 16:30:51.741 [debug] from: /usr/share/code/resources/app
+2025-12-19 16:30:51.741 [debug] args: {"_":[],"diff":false,"merge":false,"add":false,"remove":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"update-extensions":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-lcd-text":false,"disable-gpu":false,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"transient":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"crash-reporter-id":"a46a4974-72b0-4b8a-a420-73def63efc0c","skip-add-to-recently-opened":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"do-not-include-pack-dependencies":false,"trace":false,"trace-memory-infra":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"enable-rdp-display-tracking":false,"disable-layout-restore":false,"disable-experiments":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"vmodule":"*/components/os_crypt/*=1","disable-dev-shm-usage":false,"profile-temp":false,"logsPath":"/home/5ub4k3m1/.config/Code/logs/20251219T163051"}
+2025-12-19 16:30:51.741 [trace] Resolving machine identifier...
+2025-12-19 16:30:51.741 [trace] Resolving SQM identifier...
+2025-12-19 16:30:51.741 [trace] Resolving devDevice identifier...
+2025-12-19 16:30:51.741 [trace] Resolved machine identifier: 298027a6bcc0c7aec5e955b5402c8b150b2b60bd13ba742a3ffdbbf3841ad408
+2025-12-19 16:30:51.741 [trace] Resolved SQM identifier: 
+2025-12-19 16:30:51.741 [trace] Resolved devDevice identifier: b99facc6-b75d-4ef2-bbc6-57f6ca697711
+2025-12-19 16:30:51.741 [trace] Main->SharedProcess#connect
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#updatePolicyDefinitions ["terminal.integrated.automationProfile.linux","terminal.integrated.automationProfile.osx","terminal.integrated.automationProfile.windows","terminal.integrated.profiles.windows","terminal.integrated.profiles.osx","terminal.integrated.profiles.linux","terminal.integrated.useWslProfiles","terminal.integrated.inheritEnv","terminal.integrated.persistentSessionScrollback","terminal.integrated.showLinkHover","terminal.integrated.ignoreProcessNames"]
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#updatePolicyDefinitions ["terminal.integrated.defaultProfile.linux","terminal.integrated.defaultProfile.osx","terminal.integrated.defaultProfile.windows"]
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#update []
+2025-12-19 16:30:51.741 [trace] PolicyConfiguration#update []
+2025-12-19 16:30:51.741 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User'
+2025-12-19 16:30:51.741 [trace] StorageMainService: creating application storage
+2025-12-19 16:30:51.741 [trace] ElectronURLListener: waiting for window to be ready to handle URLs...
+2025-12-19 16:30:51.741 [trace] lifecycle (main): phase changed (value: 2)
+2025-12-19 16:30:51.742 [trace] windowsManager#open
+2025-12-19 16:30:51.742 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/settings.json'
+2025-12-19 16:30:51.743 [trace] windowsManager#open pathsToOpen [{"workspace":{"id":"193ded51369d96825ff532030294770e","uri":{"$mid":1,"fsPath":"/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection","path":"/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection","scheme":"file"}},"type":2,"exists":true}]
+2025-12-19 16:30:51.744 [trace] windowsManager#doOpenFolderOrWorkspace {"folderOrWorkspace":{"workspace":{"id":"193ded51369d96825ff532030294770e","uri":{"$mid":1,"fsPath":"/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection","external":"file:///home/5ub4k3m1/ciberseguridad/htb/CTFs/Try%20Out/blockchain_notademocraticelection","path":"/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection","scheme":"file"}},"type":2,"exists":true}}
+2025-12-19 16:30:51.746 [trace] IPC Object URL: Registered new channel vscode:dc9086a9-f4d7-4d4b-9d69-a87f1405c284.
+2025-12-19 16:30:51.746 [trace] window#validateWindowState: validating window state on 1 display(s) {"mode":1,"x":0,"y":0,"width":956,"height":1021}
+2025-12-19 16:30:51.746 [trace] window#validateWindowState: single monitor working area {"x":0,"y":0,"width":1920,"height":1080}
+2025-12-19 16:30:51.746 [trace] window#ctor: using window state {"mode":1,"x":0,"y":0,"width":956,"height":1021}
+2025-12-19 16:30:51.780 [trace] window#load: attempt to load window (id: 1)
+2025-12-19 16:30:51.784 [trace] StorageMainService: creating workspace storage (193ded51369d96825ff532030294770e)
+2025-12-19 16:30:51.785 [trace] windowsManager#open used window count 1 (workspacesToOpen: 0, foldersToOpen: 1, emptyToRestore: 0, maybeOpenEmptyWindow: false)
+2025-12-19 16:30:51.785 [trace] lifecycle (main): phase changed (value: 3)
+2025-12-19 16:30:51.785 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-19 16:30:51.786 [info] update#setState idle
+2025-12-19 16:30:51.827 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-19 16:30:52.480 [trace] [File Watcher (node.js)] Request to stop watching: /etc/vscode/policy.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-19 16:30:52.480 [trace] [File Watcher (node.js)] stopping file watcher (/etc/vscode/policy.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-12-19 16:30:52.489 [trace] window#load: window reported ready (id: 1)
+2025-12-19 16:30:52.490 [trace] ElectronURLListener#flush(): flushing URLs
+2025-12-19 16:30:52.646 [trace] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2025-12-19 16:30:52.653 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 26469]: successfully created
+2025-12-19 16:30:52.670 [trace] [SharedProcess] onWindowConnection for: vscode:createSharedProcessChannelConnectionResult
+2025-12-19 16:30:52.670 [trace] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2025-12-19 16:30:52.674 [trace] [UtilityProcess type: shared-process, pid: <none>]: payload sent via postMessage()
+2025-12-19 16:30:52.675 [trace] [UtilityProcessWorker]: createWorker(window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2025-12-19 16:30:52.676 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2025-12-19 16:30:52.683 [trace] [UtilityProcess type: shared-process, pid: 26470]: successfully created
+2025-12-19 16:30:52.683 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 26471]: successfully created
+2025-12-19 16:30:52.966 [trace] [SharedProcess] IPC ready
+2025-12-19 16:30:52.967 [trace] Main->SharedProcess#connect: connection established
+2025-12-19 16:30:52.985 [trace] [File Watcher (node.js)] Request to start watching: /home/5ub4k3m1/.config/Code/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-19 16:30:52.989 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User'
+2025-12-19 16:30:52.990 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/settings.json'
+2025-12-19 16:30:53.003 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-19 16:30:53.010 [trace] [SharedProcess] Overall ready
+2025-12-19 16:30:53.028 [debug] Terminal profile not validated fish ["fish"]
+2025-12-19 16:30:53.028 [debug] Terminal profile not validated zsh ["zsh"]
+2025-12-19 16:30:53.028 [debug] Terminal profile not validated pwsh ["pwsh"]
+2025-12-19 16:30:53.061 [trace] [File Watcher (node.js)] Request to start watching: /home/5ub4k3m1/.vscode/extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.vscode/extensions/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-1f35817d (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-1f35817d/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-669a9140 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-669a9140/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-3eb95aa1 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-3eb95aa1/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/423dc13f (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/423dc13f/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/196b40f3 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/196b40f3/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/554a503d (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/554a503d/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-47658773 (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/profiles/-47658773/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-19 16:30:53.066 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.vscode/extensions'
+2025-12-19 16:30:53.067 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.vscode/extensions/extensions.json'
+2025-12-19 16:30:53.068 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-1f35817d'
+2025-12-19 16:30:53.068 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-669a9140'
+2025-12-19 16:30:53.068 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-3eb95aa1'
+2025-12-19 16:30:53.068 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/423dc13f'
+2025-12-19 16:30:53.068 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/196b40f3'
+2025-12-19 16:30:53.068 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/554a503d'
+2025-12-19 16:30:53.069 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-47658773'
+2025-12-19 16:30:53.069 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-1f35817d/extensions.json'
+2025-12-19 16:30:53.069 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-669a9140/extensions.json'
+2025-12-19 16:30:53.069 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-3eb95aa1/extensions.json'
+2025-12-19 16:30:53.069 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/423dc13f/extensions.json'
+2025-12-19 16:30:53.069 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/196b40f3/extensions.json'
+2025-12-19 16:30:53.070 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/554a503d/extensions.json'
+2025-12-19 16:30:53.070 [trace] [File Watcher (node.js)] Started watching: '/home/5ub4k3m1/.config/Code/User/profiles/-47658773/extensions.json'
+2025-12-19 16:30:53.207 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-19 16:30:53.208 [trace] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622 - begin undefined {}
+2025-12-19 16:30:53.215 [trace] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622 - end undefined 200 {"accept-ranges":"bytes","access-control-allow-origin":"*","cache-control":"max-age=150","content-length":"430","content-type":"application/json; charset=utf-8","date":"Fri, 19 Dec 2025 19:30:21 GMT","request-context":"appId=cid-v1:8109e553-6232-492a-afca-b78cea9b431c","x-azure-ref":"20251219T193021Z-r1bbd765698wbh7qhC1SCLck3s0000000em000000000rfqw","x-cache":"CONFIG_NOCACHE","x-content-type-options":"nosniff","x-powered-by":"Express","x-source-commit":"248f8d9e0730453bdb7977f39608edebd3000773"}
+2025-12-19 16:30:54.030 [trace] [File Watcher (node.js)] Request to start watching: /home/5ub4k3m1/.config/Code/User/mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-19 16:30:54.031 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: /home/5ub4k3m1/.config/Code/User/mcp.json (error: Error: ENOENT: no such file or directory, stat '/home/5ub4k3m1/.config/Code/User/mcp.json')
+2025-12-19 16:30:54.031 [trace] [File Watcher (node.js)] starting fs.watchFile() on /home/5ub4k3m1/.config/Code/User/mcp.json (correlationId: undefined)
+2025-12-19 16:30:54.183 [trace] Setting background throttling for window 1 to 'true'
+2025-12-19 16:30:54.287 [trace] lifecycle (main): phase changed (value: 4)
+2025-12-19 16:30:54.831 [trace] [File Watcher (node.js)] Request to stop watching: /home/5ub4k3m1/.config/Code/User/mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-19 16:30:54.831 [trace] [File Watcher (node.js)] stopping file watcher (/home/5ub4k3m1/.config/Code/User/mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-12-19 16:30:54.988 [trace] [EncryptionMainService] Checking if encryption is available...
+2025-12-19 16:30:54.988 [trace] [EncryptionMainService] Encryption is available:  false
+2025-12-19 16:30:55.152 [debug] ProxyResolver#loadSystemCertificates count (3ms) 147
+2025-12-19 16:30:55.153 [debug] ProxyResolver#loadSystemCertificates parse error Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:839:48
+    at Array.filter (<anonymous>)
+    at Module.<anonymous> (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:837:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:32:58)
+2025-12-19 16:30:55.157 [debug] ProxyResolver#loadSystemCertificates count filtered 146
+2025-12-19 16:30:55.425 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-19 16:30:55.425 [trace] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622 - begin undefined {}
+2025-12-19 16:30:55.434 [trace] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622 - end undefined 200 {"accept-ranges":"bytes","access-control-allow-origin":"*","cache-control":"max-age=150","content-length":"430","content-type":"application/json; charset=utf-8","date":"Fri, 19 Dec 2025 19:30:21 GMT","request-context":"appId=cid-v1:8109e553-6232-492a-afca-b78cea9b431c","x-azure-ref":"20251219T193021Z-r1bbd765698wbh7qhC1SCLck3s0000000em000000000rfqw","x-cache":"CONFIG_NOCACHE","x-content-type-options":"nosniff","x-powered-by":"Express","x-source-commit":"248f8d9e0730453bdb7977f39608edebd3000773"}
+2025-12-19 16:30:55.453 [trace] [EncryptionMainService] Getting selected storage backend...
+2025-12-19 16:30:55.453 [trace] [EncryptionMainService] Selected storage backend:  basic_text
+2025-12-19 16:31:21.787 [trace] update#checkForUpdates, state =  idle
+2025-12-19 16:31:21.788 [info] update#setState checking for updates
+2025-12-19 16:31:21.788 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-19 16:31:21.788 [trace] #3: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622?bg=true - begin undefined {}
+2025-12-19 16:31:22.073 [trace] #3: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622?bg=true - end undefined 200 {"accept-ranges":"bytes","access-control-allow-origin":"*","cache-control":"max-age=150","content-length":"430","content-type":"application/json; charset=utf-8","date":"Fri, 19 Dec 2025 19:31:22 GMT","request-context":"appId=cid-v1:8109e553-6232-492a-afca-b78cea9b431c","strict-transport-security":"max-age=31536000; includeSubDomains","x-azure-ref":"20251219T193121Z-r1bbd765698pjg7nhC1SCLwq6c0000000n5000000000c7fh","x-cache":"CONFIG_NOCACHE","x-content-type-options":"nosniff","x-powered-by":"Express","x-source-commit":"248f8d9e0730453bdb7977f39608edebd3000773"}
+2025-12-19 16:31:22.074 [info] update#setState available for download
+2025-12-19 16:33:29.030 [trace] Lifecycle#window.on('close') - window ID 1
+2025-12-19 16:33:29.031 [trace] Lifecycle#unload() - window ID 1
+2025-12-19 16:33:29.040 [trace] [UtilityProcess type: ptyHost, pid: <none>]: creating new...
+2025-12-19 16:33:29.044 [trace] PtyHostService#_startPtyHost 
+    at Nu.U (file:///usr/share/code/resources/app/out/main.js:99:2981)
+    at Nu.h (file:///usr/share/code/resources/app/out/main.js:99:1484)
+    at get f (file:///usr/share/code/resources/app/out/main.js:99:1434)
+    at Nu.setTerminalLayoutInfo (file:///usr/share/code/resources/app/out/main.js:99:5930)
+    at Object.call (file:///usr/share/code/resources/app/out/main.js:33:4562)
+    at _f.s (file:///usr/share/code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///usr/share/code/resources/app/out/main.js:31:14405)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:31:13807)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2615)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5389)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at na.value (file:///usr/share/code/resources/app/out/main.js:28:5577)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2546)
+    at N (file:///usr/share/code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2025-12-19 16:33:29.048 [trace] [UtilityProcess type: ptyHost, pid: 28456]: successfully created
+2025-12-19 16:33:29.135 [trace] Lifecycle#onBeforeCloseWindow.fire() - window ID 1
+2025-12-19 16:33:29.139 [trace] IPC Object URL: Removed channel vscode:dc9086a9-f4d7-4d4b-9d69-a87f1405c284.
+2025-12-19 16:33:29.141 [trace] Lifecycle#window.on('closed') - window ID 1
+2025-12-19 16:33:29.141 [trace] Lifecycle#onWillShutdown.fire()
+2025-12-19 16:33:29.142 [trace] Lifecycle#onWillShutdown - begin 'instanceLockfile'
+2025-12-19 16:33:29.143 [trace] storageMainService#onWillShutdown()
+2025-12-19 16:33:29.144 [trace] Lifecycle#onWillShutdown - begin 'applicationStorage'
+2025-12-19 16:33:29.144 [trace] Lifecycle#onWillShutdown - begin 'workspaceStorage'
+2025-12-19 16:33:29.144 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 26469]: waiting to exit...
+2025-12-19 16:33:29.144 [trace] Lifecycle#onWillShutdown - begin 'extHostStarter'
+2025-12-19 16:33:29.144 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 26471]: attempting to kill the process...
+2025-12-19 16:33:29.144 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 26471]: successfully killed the process
+2025-12-19 16:33:29.144 [trace] Lifecycle#app.on(window-all-closed)
+2025-12-19 16:33:29.145 [trace] Lifecycle#app.on(before-quit)
+2025-12-19 16:33:29.145 [trace] Lifecycle#onBeforeShutdown.fire()
+2025-12-19 16:33:29.145 [trace] [WindowsStateHandler] onBeforeShutdown {"lastActiveWindow":{"folder":"file:///home/5ub4k3m1/ciberseguridad/htb/CTFs/Try%20Out/blockchain_notademocraticelection","backupPath":"/home/5ub4k3m1/.config/Code/Backups/86c0f98ef9ff03c866e5c96029aee257","uiState":{"mode":1,"x":0,"y":0,"width":862,"height":1021}},"openedWindows":[]}
+2025-12-19 16:33:29.145 [trace] Lifecycle#app.on(will-quit) - begin
+2025-12-19 16:33:29.148 [trace] Lifecycle#onWillShutdown - end 'instanceLockfile'
+2025-12-19 16:33:29.148 [trace] [File Watcher (node.js)] stopping fs.watchFile() on /etc/vscode/policy.json (correlationId: undefined)
+2025-12-19 16:33:29.152 [trace] [File Watcher (node.js)] Request to stop watching: /home/5ub4k3m1/.config/Code/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/5ub4k3m1/.config/Code/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-19 16:33:29.152 [trace] [File Watcher (node.js)] stopping file watcher (/home/5ub4k3m1/.config/Code/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-12-19 16:33:29.152 [trace] [File Watcher (node.js)] stopping file watcher (/home/5ub4k3m1/.config/Code/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-12-19 16:33:29.158 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 26471]: received exit event with code 0
+2025-12-19 16:33:29.158 [trace] [UtilityProcessWorker]: terminated normally with code 0, signal: unknown
+2025-12-19 16:33:29.158 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 26471]: crashed with code 15 and reason 'killed'
+2025-12-19 16:33:29.186 [trace] StorageMainService: closed application storage
+2025-12-19 16:33:29.186 [trace] Lifecycle#onWillShutdown - end 'applicationStorage'
+2025-12-19 16:33:29.190 [trace] StorageMainService: closed workspace storage (193ded51369d96825ff532030294770e)
+2025-12-19 16:33:29.190 [trace] Lifecycle#onWillShutdown - end 'workspaceStorage'
+2025-12-19 16:33:31.052 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 26469]: received exit event with code 0
+2025-12-19 16:33:31.053 [info] Extension host with pid 26469 exited with code: 0, signal: unknown.
+2025-12-19 16:33:31.053 [trace] Lifecycle#onWillShutdown - end 'extHostStarter'
+2025-12-19 16:33:31.054 [trace] Lifecycle#app.on(will-quit) - after fireOnWillShutdown
+2025-12-19 16:33:31.055 [trace] Lifecycle#app.on(will-quit) - calling app.quit()
+2025-12-19 16:33:31.055 [trace] [UtilityProcess type: ptyHost, pid: 28456]: received exit event with code 0

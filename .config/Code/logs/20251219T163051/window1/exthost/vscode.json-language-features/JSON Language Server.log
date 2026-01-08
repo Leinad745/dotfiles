@@ -1,0 +1,352 @@
+2025-12-19 16:32:15.835 [trace] Sending request 'initialize - (0)'.
+2025-12-19 16:32:15.973 [trace] Received response 'initialize - (0)' in 140ms.
+2025-12-19 16:32:15.973 [trace] Sending notification 'initialized'.
+2025-12-19 16:32:15.980 [trace] Sending notification 'textDocument/didOpen'.
+2025-12-19 16:32:15.980 [trace] Sending notification 'workspace/didChangeConfiguration'.
+2025-12-19 16:32:15.980 [trace] Sending request 'textDocument/diagnostic - (1)'.
+2025-12-19 16:32:15.980 [trace] Sending request 'textDocument/documentSymbol - (2)'.
+2025-12-19 16:32:15.980 [trace] Sending request 'textDocument/documentLink - (3)'.
+2025-12-19 16:32:15.981 [trace] Sending request 'textDocument/documentColor - (4)'.
+2025-12-19 16:32:15.981 [trace] Received request 'workspace/diagnostic/refresh - (0)'.
+2025-12-19 16:32:15.981 [trace] Sending notification '$/cancelRequest'.
+2025-12-19 16:32:15.982 [trace] Sending response 'workspace/diagnostic/refresh - (0)'. Processing request took 1ms
+2025-12-19 16:32:15.984 [trace] Sending notification 'json/schemaAssociations'.
+2025-12-19 16:32:15.984 [trace] Sending request 'json/validate - (5)'.
+2025-12-19 16:32:15.984 [trace] Sending request 'json/languageStatus - (6)'.
+2025-12-19 16:32:15.985 [trace] Received response 'textDocument/diagnostic - (1)' in 6ms.
+2025-12-19 16:32:15.986 [trace] Sending request 'textDocument/diagnostic - (7)'.
+2025-12-19 16:32:15.986 [trace] Received response 'textDocument/documentSymbol - (2)' in 6ms.
+2025-12-19 16:32:15.987 [trace] Received response 'textDocument/documentLink - (3)' in 7ms.
+2025-12-19 16:32:15.987 [trace] Received response 'textDocument/documentColor - (4)' in 6ms.
+2025-12-19 16:32:15.987 [trace] Received request 'workspace/diagnostic/refresh - (1)'.
+2025-12-19 16:32:15.987 [trace] Sending notification '$/cancelRequest'.
+2025-12-19 16:32:15.987 [trace] Sending response 'workspace/diagnostic/refresh - (1)'. Processing request took 0ms
+2025-12-19 16:32:15.987 [trace] Received request 'workspace/diagnostic/refresh - (2)'.
+2025-12-19 16:32:15.987 [trace] Sending response 'workspace/diagnostic/refresh - (2)'. Processing request took 0ms
+2025-12-19 16:32:15.988 [trace] Received request 'vscode/content - (3)'.
+2025-12-19 16:32:15.988 [info] read schema from vscode: vscode://schemas/argv
+2025-12-19 16:32:15.989 [trace] Received response 'json/languageStatus - (6)' in 5ms.
+2025-12-19 16:32:15.989 [trace] Received notification 'window/logMessage'.
+2025-12-19 16:32:15.989 [info] cancelled
+2025-12-19 16:32:15.989 [trace] Received response 'textDocument/diagnostic - (7)' in 3ms. Request failed: Request cancelled (-32800).
+2025-12-19 16:32:15.989 [trace] Sending request 'textDocument/diagnostic - (8)'.
+2025-12-19 16:32:15.990 [trace] Sending response 'vscode/content - (3)'. Processing request took 3ms
+2025-12-19 16:32:15.992 [trace] Received response 'json/validate - (5)' in 8ms.
+2025-12-19 16:32:15.993 [trace] Received response 'textDocument/diagnostic - (8)' in 4ms.
+2025-12-19 16:32:16.178 [trace] Sending request 'textDocument/foldingRange - (9)'.
+2025-12-19 16:32:16.179 [trace] Received response 'textDocument/foldingRange - (9)' in 1ms.
+2025-12-19 16:32:16.276 [trace] Sending request 'textDocument/documentSymbol - (10)'.
+2025-12-19 16:32:16.277 [trace] Received response 'textDocument/documentSymbol - (10)' in 1ms.
+2025-12-19 16:32:29.580 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:29.581 [trace] Sending request 'textDocument/diagnostic - (11)'.
+2025-12-19 16:32:29.583 [trace] Received response 'textDocument/diagnostic - (11)' in 3ms.
+2025-12-19 16:32:29.787 [trace] Sending request 'textDocument/foldingRange - (12)'.
+2025-12-19 16:32:29.788 [trace] Received response 'textDocument/foldingRange - (12)' in 1ms.
+2025-12-19 16:32:29.937 [trace] Sending request 'textDocument/documentSymbol - (13)'.
+2025-12-19 16:32:29.937 [trace] Sending request 'textDocument/documentSymbol - (14)'.
+2025-12-19 16:32:29.937 [trace] Received response 'textDocument/documentSymbol - (13)' in 0ms.
+2025-12-19 16:32:29.938 [trace] Received response 'textDocument/documentSymbol - (14)' in 1ms.
+2025-12-19 16:32:30.353 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:30.353 [trace] Sending request 'textDocument/diagnostic - (15)'.
+2025-12-19 16:32:30.354 [trace] Received response 'textDocument/diagnostic - (15)' in 1ms.
+2025-12-19 16:32:30.557 [trace] Sending request 'textDocument/foldingRange - (16)'.
+2025-12-19 16:32:30.558 [trace] Received response 'textDocument/foldingRange - (16)' in 1ms.
+2025-12-19 16:32:30.589 [trace] Sending request 'textDocument/documentColor - (17)'.
+2025-12-19 16:32:30.589 [trace] Received response 'textDocument/documentColor - (17)' in 1ms.
+2025-12-19 16:32:30.707 [trace] Sending request 'textDocument/documentSymbol - (18)'.
+2025-12-19 16:32:30.707 [trace] Sending request 'textDocument/documentSymbol - (19)'.
+2025-12-19 16:32:30.707 [trace] Received response 'textDocument/documentSymbol - (18)' in 0ms.
+2025-12-19 16:32:30.707 [trace] Received response 'textDocument/documentSymbol - (19)' in 0ms.
+2025-12-19 16:32:31.358 [trace] Sending request 'textDocument/documentLink - (20)'.
+2025-12-19 16:32:31.359 [trace] Received response 'textDocument/documentLink - (20)' in 1ms.
+2025-12-19 16:32:33.584 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:33.584 [trace] Sending request 'textDocument/diagnostic - (21)'.
+2025-12-19 16:32:33.585 [trace] Received response 'textDocument/diagnostic - (21)' in 0ms.
+2025-12-19 16:32:33.589 [trace] Sending request 'textDocument/completion - (22)'.
+2025-12-19 16:32:33.591 [trace] Received response 'textDocument/completion - (22)' in 2ms.
+2025-12-19 16:32:33.786 [trace] Sending request 'textDocument/foldingRange - (23)'.
+2025-12-19 16:32:33.787 [trace] Received response 'textDocument/foldingRange - (23)' in 1ms.
+2025-12-19 16:32:33.937 [trace] Sending request 'textDocument/documentSymbol - (24)'.
+2025-12-19 16:32:33.937 [trace] Sending request 'textDocument/documentSymbol - (25)'.
+2025-12-19 16:32:33.937 [trace] Received response 'textDocument/documentSymbol - (24)' in 1ms.
+2025-12-19 16:32:33.938 [trace] Received response 'textDocument/documentSymbol - (25)' in 1ms.
+2025-12-19 16:32:34.589 [trace] Sending request 'textDocument/documentLink - (26)'.
+2025-12-19 16:32:34.589 [trace] Sending request 'textDocument/documentColor - (27)'.
+2025-12-19 16:32:34.589 [trace] Received response 'textDocument/documentLink - (26)' in 1ms.
+2025-12-19 16:32:34.589 [trace] Received response 'textDocument/documentColor - (27)' in 0ms.
+2025-12-19 16:32:35.450 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:35.450 [trace] Sending request 'textDocument/diagnostic - (28)'.
+2025-12-19 16:32:35.451 [trace] Received response 'textDocument/diagnostic - (28)' in 1ms.
+2025-12-19 16:32:35.601 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:35.601 [trace] Sending request 'textDocument/diagnostic - (29)'.
+2025-12-19 16:32:35.601 [trace] Received response 'textDocument/diagnostic - (29)' in 0ms.
+2025-12-19 16:32:35.739 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:35.739 [trace] Sending request 'textDocument/diagnostic - (30)'.
+2025-12-19 16:32:35.740 [trace] Received response 'textDocument/diagnostic - (30)' in 1ms.
+2025-12-19 16:32:35.943 [trace] Sending request 'textDocument/foldingRange - (31)'.
+2025-12-19 16:32:35.943 [trace] Received response 'textDocument/foldingRange - (31)' in 0ms.
+2025-12-19 16:32:35.970 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:35.971 [trace] Sending request 'textDocument/diagnostic - (32)'.
+2025-12-19 16:32:35.971 [trace] Received response 'textDocument/diagnostic - (32)' in 1ms.
+2025-12-19 16:32:36.174 [trace] Sending request 'textDocument/foldingRange - (33)'.
+2025-12-19 16:32:36.174 [trace] Received response 'textDocument/foldingRange - (33)' in 0ms.
+2025-12-19 16:32:36.248 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:36.248 [trace] Sending request 'textDocument/diagnostic - (34)'.
+2025-12-19 16:32:36.249 [trace] Received response 'textDocument/diagnostic - (34)' in 1ms.
+2025-12-19 16:32:36.451 [trace] Sending request 'textDocument/foldingRange - (35)'.
+2025-12-19 16:32:36.452 [trace] Received response 'textDocument/foldingRange - (35)' in 1ms.
+2025-12-19 16:32:36.455 [trace] Sending request 'textDocument/documentColor - (36)'.
+2025-12-19 16:32:36.455 [trace] Received response 'textDocument/documentColor - (36)' in 0ms.
+2025-12-19 16:32:36.602 [trace] Sending request 'textDocument/documentSymbol - (37)'.
+2025-12-19 16:32:36.602 [trace] Sending request 'textDocument/documentSymbol - (38)'.
+2025-12-19 16:32:36.602 [trace] Received response 'textDocument/documentSymbol - (37)' in 1ms.
+2025-12-19 16:32:36.603 [trace] Received response 'textDocument/documentSymbol - (38)' in 1ms.
+2025-12-19 16:32:37.251 [trace] Sending request 'textDocument/documentLink - (39)'.
+2025-12-19 16:32:37.251 [trace] Received response 'textDocument/documentLink - (39)' in 0ms.
+2025-12-19 16:32:37.665 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:37.666 [trace] Sending request 'textDocument/diagnostic - (40)'.
+2025-12-19 16:32:37.666 [trace] Received response 'textDocument/diagnostic - (40)' in 1ms.
+2025-12-19 16:32:37.679 [trace] Sending request 'textDocument/completion - (41)'.
+2025-12-19 16:32:37.680 [trace] Received response 'textDocument/completion - (41)' in 1ms.
+2025-12-19 16:32:37.868 [trace] Sending request 'textDocument/foldingRange - (42)'.
+2025-12-19 16:32:37.868 [trace] Received response 'textDocument/foldingRange - (42)' in 0ms.
+2025-12-19 16:32:38.018 [trace] Sending request 'textDocument/documentSymbol - (43)'.
+2025-12-19 16:32:38.018 [trace] Sending request 'textDocument/documentSymbol - (44)'.
+2025-12-19 16:32:38.019 [trace] Received response 'textDocument/documentSymbol - (43)' in 1ms.
+2025-12-19 16:32:38.019 [trace] Received response 'textDocument/documentSymbol - (44)' in 1ms.
+2025-12-19 16:32:38.578 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:38.578 [trace] Sending request 'textDocument/diagnostic - (45)'.
+2025-12-19 16:32:38.578 [trace] Received response 'textDocument/diagnostic - (45)' in 0ms.
+2025-12-19 16:32:38.668 [trace] Sending request 'textDocument/documentColor - (46)'.
+2025-12-19 16:32:38.669 [trace] Received response 'textDocument/documentColor - (46)' in 1ms.
+2025-12-19 16:32:38.781 [trace] Sending request 'textDocument/foldingRange - (47)'.
+2025-12-19 16:32:38.781 [trace] Received response 'textDocument/foldingRange - (47)' in 0ms.
+2025-12-19 16:32:38.931 [trace] Sending request 'textDocument/documentSymbol - (48)'.
+2025-12-19 16:32:38.931 [trace] Sending request 'textDocument/documentSymbol - (49)'.
+2025-12-19 16:32:38.931 [trace] Received response 'textDocument/documentSymbol - (48)' in 0ms.
+2025-12-19 16:32:38.932 [trace] Received response 'textDocument/documentSymbol - (49)' in 1ms.
+2025-12-19 16:32:39.531 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:39.531 [trace] Sending request 'textDocument/diagnostic - (50)'.
+2025-12-19 16:32:39.532 [trace] Received response 'textDocument/diagnostic - (50)' in 1ms.
+2025-12-19 16:32:39.545 [trace] Sending request 'textDocument/completion - (51)'.
+2025-12-19 16:32:39.546 [trace] Received response 'textDocument/completion - (51)' in 1ms.
+2025-12-19 16:32:39.680 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:39.680 [trace] Sending request 'textDocument/diagnostic - (52)'.
+2025-12-19 16:32:39.682 [trace] Received response 'textDocument/diagnostic - (52)' in 2ms.
+2025-12-19 16:32:39.693 [trace] Sending request 'textDocument/completion - (53)'.
+2025-12-19 16:32:39.693 [trace] Received response 'textDocument/completion - (53)' in 0ms.
+2025-12-19 16:32:39.883 [trace] Sending request 'textDocument/foldingRange - (54)'.
+2025-12-19 16:32:39.883 [trace] Received response 'textDocument/foldingRange - (54)' in 0ms.
+2025-12-19 16:32:40.033 [trace] Sending request 'textDocument/documentSymbol - (55)'.
+2025-12-19 16:32:40.033 [trace] Sending request 'textDocument/documentSymbol - (56)'.
+2025-12-19 16:32:40.034 [trace] Received response 'textDocument/documentSymbol - (55)' in 1ms.
+2025-12-19 16:32:40.034 [trace] Received response 'textDocument/documentSymbol - (56)' in 1ms.
+2025-12-19 16:32:40.291 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:40.292 [trace] Sending request 'textDocument/diagnostic - (57)'.
+2025-12-19 16:32:40.292 [trace] Received response 'textDocument/diagnostic - (57)' in 0ms.
+2025-12-19 16:32:40.304 [trace] Sending request 'textDocument/completion - (58)'.
+2025-12-19 16:32:40.305 [trace] Received response 'textDocument/completion - (58)' in 1ms.
+2025-12-19 16:32:40.493 [trace] Sending request 'textDocument/foldingRange - (59)'.
+2025-12-19 16:32:40.494 [trace] Received response 'textDocument/foldingRange - (59)' in 1ms.
+2025-12-19 16:32:40.534 [trace] Sending request 'textDocument/documentColor - (60)'.
+2025-12-19 16:32:40.535 [trace] Received response 'textDocument/documentColor - (60)' in 1ms.
+2025-12-19 16:32:40.552 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:40.552 [trace] Sending request 'textDocument/diagnostic - (61)'.
+2025-12-19 16:32:40.553 [trace] Received response 'textDocument/diagnostic - (61)' in 1ms.
+2025-12-19 16:32:40.565 [trace] Sending request 'textDocument/completion - (62)'.
+2025-12-19 16:32:40.566 [trace] Received response 'textDocument/completion - (62)' in 1ms.
+2025-12-19 16:32:40.738 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:40.738 [trace] Sending request 'textDocument/diagnostic - (63)'.
+2025-12-19 16:32:40.739 [trace] Received response 'textDocument/diagnostic - (63)' in 1ms.
+2025-12-19 16:32:40.751 [trace] Sending request 'textDocument/completion - (64)'.
+2025-12-19 16:32:40.751 [trace] Received response 'textDocument/completion - (64)' in 1ms.
+2025-12-19 16:32:40.940 [trace] Sending request 'textDocument/foldingRange - (65)'.
+2025-12-19 16:32:40.941 [trace] Received response 'textDocument/foldingRange - (65)' in 1ms.
+2025-12-19 16:32:41.091 [trace] Sending request 'textDocument/documentSymbol - (66)'.
+2025-12-19 16:32:41.091 [trace] Sending request 'textDocument/documentSymbol - (67)'.
+2025-12-19 16:32:41.092 [trace] Received response 'textDocument/documentSymbol - (66)' in 1ms.
+2025-12-19 16:32:41.092 [trace] Received response 'textDocument/documentSymbol - (67)' in 1ms.
+2025-12-19 16:32:41.555 [trace] Sending request 'textDocument/documentColor - (68)'.
+2025-12-19 16:32:41.555 [trace] Received response 'textDocument/documentColor - (68)' in 1ms.
+2025-12-19 16:32:41.741 [trace] Sending request 'textDocument/documentLink - (69)'.
+2025-12-19 16:32:41.741 [trace] Received response 'textDocument/documentLink - (69)' in 0ms.
+2025-12-19 16:32:42.270 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:42.270 [trace] Sending request 'textDocument/diagnostic - (70)'.
+2025-12-19 16:32:42.271 [trace] Received response 'textDocument/diagnostic - (70)' in 1ms.
+2025-12-19 16:32:42.283 [trace] Sending request 'textDocument/completion - (71)'.
+2025-12-19 16:32:42.283 [trace] Received response 'textDocument/completion - (71)' in 0ms.
+2025-12-19 16:32:42.472 [trace] Sending request 'textDocument/foldingRange - (72)'.
+2025-12-19 16:32:42.473 [trace] Received response 'textDocument/foldingRange - (72)' in 1ms.
+2025-12-19 16:32:42.622 [trace] Sending request 'textDocument/documentSymbol - (73)'.
+2025-12-19 16:32:42.622 [trace] Sending request 'textDocument/documentSymbol - (74)'.
+2025-12-19 16:32:42.623 [trace] Received response 'textDocument/documentSymbol - (73)' in 1ms.
+2025-12-19 16:32:42.623 [trace] Received response 'textDocument/documentSymbol - (74)' in 1ms.
+2025-12-19 16:32:42.775 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:42.775 [trace] Sending request 'textDocument/diagnostic - (75)'.
+2025-12-19 16:32:42.776 [trace] Received response 'textDocument/diagnostic - (75)' in 1ms.
+2025-12-19 16:32:42.790 [trace] Sending request 'textDocument/completion - (76)'.
+2025-12-19 16:32:42.791 [trace] Received response 'textDocument/completion - (76)' in 1ms.
+2025-12-19 16:32:42.978 [trace] Sending request 'textDocument/foldingRange - (77)'.
+2025-12-19 16:32:42.978 [trace] Received response 'textDocument/foldingRange - (77)' in 0ms.
+2025-12-19 16:32:43.128 [trace] Sending request 'textDocument/documentSymbol - (78)'.
+2025-12-19 16:32:43.128 [trace] Sending request 'textDocument/documentSymbol - (79)'.
+2025-12-19 16:32:43.129 [trace] Received response 'textDocument/documentSymbol - (78)' in 1ms.
+2025-12-19 16:32:43.129 [trace] Received response 'textDocument/documentSymbol - (79)' in 1ms.
+2025-12-19 16:32:43.242 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:43.242 [trace] Sending request 'textDocument/diagnostic - (80)'.
+2025-12-19 16:32:43.242 [trace] Received response 'textDocument/diagnostic - (80)' in 0ms.
+2025-12-19 16:32:43.272 [trace] Sending request 'textDocument/documentColor - (81)'.
+2025-12-19 16:32:43.272 [trace] Received response 'textDocument/documentColor - (81)' in 0ms.
+2025-12-19 16:32:43.432 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:43.433 [trace] Sending request 'textDocument/diagnostic - (82)'.
+2025-12-19 16:32:43.433 [trace] Received response 'textDocument/diagnostic - (82)' in 0ms.
+2025-12-19 16:32:43.447 [trace] Sending request 'textDocument/completion - (83)'.
+2025-12-19 16:32:43.448 [trace] Received response 'textDocument/completion - (83)' in 1ms.
+2025-12-19 16:32:43.635 [trace] Sending request 'textDocument/foldingRange - (84)'.
+2025-12-19 16:32:43.635 [trace] Received response 'textDocument/foldingRange - (84)' in 0ms.
+2025-12-19 16:32:43.643 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:43.643 [trace] Sending request 'textDocument/diagnostic - (85)'.
+2025-12-19 16:32:43.644 [trace] Received response 'textDocument/diagnostic - (85)' in 1ms.
+2025-12-19 16:32:43.658 [trace] Sending request 'textDocument/completion - (86)'.
+2025-12-19 16:32:43.659 [trace] Received response 'textDocument/completion - (86)' in 1ms.
+2025-12-19 16:32:43.785 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:43.785 [trace] Sending request 'textDocument/diagnostic - (87)'.
+2025-12-19 16:32:43.785 [trace] Received response 'textDocument/diagnostic - (87)' in 0ms.
+2025-12-19 16:32:43.797 [trace] Sending request 'textDocument/completion - (88)'.
+2025-12-19 16:32:43.798 [trace] Received response 'textDocument/completion - (88)' in 1ms.
+2025-12-19 16:32:43.987 [trace] Sending request 'textDocument/foldingRange - (89)'.
+2025-12-19 16:32:43.987 [trace] Received response 'textDocument/foldingRange - (89)' in 0ms.
+2025-12-19 16:32:44.138 [trace] Sending request 'textDocument/documentSymbol - (90)'.
+2025-12-19 16:32:44.138 [trace] Sending request 'textDocument/documentSymbol - (91)'.
+2025-12-19 16:32:44.138 [trace] Received response 'textDocument/documentSymbol - (90)' in 0ms.
+2025-12-19 16:32:44.139 [trace] Received response 'textDocument/documentSymbol - (91)' in 1ms.
+2025-12-19 16:32:44.145 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:44.145 [trace] Sending request 'textDocument/diagnostic - (92)'.
+2025-12-19 16:32:44.145 [trace] Received response 'textDocument/diagnostic - (92)' in 0ms.
+2025-12-19 16:32:44.158 [trace] Sending request 'textDocument/completion - (93)'.
+2025-12-19 16:32:44.159 [trace] Received response 'textDocument/completion - (93)' in 1ms.
+2025-12-19 16:32:44.321 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:44.321 [trace] Sending request 'textDocument/diagnostic - (94)'.
+2025-12-19 16:32:44.321 [trace] Received response 'textDocument/diagnostic - (94)' in 0ms.
+2025-12-19 16:32:44.333 [trace] Sending request 'textDocument/completion - (95)'.
+2025-12-19 16:32:44.337 [trace] Received response 'textDocument/completion - (95)' in 4ms.
+2025-12-19 16:32:44.435 [trace] Sending request 'textDocument/documentColor - (96)'.
+2025-12-19 16:32:44.435 [trace] Received response 'textDocument/documentColor - (96)' in 0ms.
+2025-12-19 16:32:44.523 [trace] Sending request 'textDocument/foldingRange - (97)'.
+2025-12-19 16:32:44.524 [trace] Received response 'textDocument/foldingRange - (97)' in 1ms.
+2025-12-19 16:32:44.586 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:44.586 [trace] Sending request 'textDocument/diagnostic - (98)'.
+2025-12-19 16:32:44.587 [trace] Received response 'textDocument/diagnostic - (98)' in 1ms.
+2025-12-19 16:32:44.600 [trace] Sending request 'textDocument/completion - (99)'.
+2025-12-19 16:32:44.600 [trace] Received response 'textDocument/completion - (99)' in 0ms.
+2025-12-19 16:32:44.719 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:44.719 [trace] Sending request 'textDocument/diagnostic - (100)'.
+2025-12-19 16:32:44.719 [trace] Received response 'textDocument/diagnostic - (100)' in 0ms.
+2025-12-19 16:32:44.731 [trace] Sending request 'textDocument/completion - (101)'.
+2025-12-19 16:32:44.732 [trace] Received response 'textDocument/completion - (101)' in 1ms.
+2025-12-19 16:32:44.921 [trace] Sending request 'textDocument/foldingRange - (102)'.
+2025-12-19 16:32:44.922 [trace] Received response 'textDocument/foldingRange - (102)' in 1ms.
+2025-12-19 16:32:44.991 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:44.991 [trace] Sending request 'textDocument/diagnostic - (103)'.
+2025-12-19 16:32:44.992 [trace] Received response 'textDocument/diagnostic - (103)' in 1ms.
+2025-12-19 16:32:45.005 [trace] Sending request 'textDocument/completion - (104)'.
+2025-12-19 16:32:45.007 [trace] Received response 'textDocument/completion - (104)' in 2ms.
+2025-12-19 16:32:45.193 [trace] Sending request 'textDocument/foldingRange - (105)'.
+2025-12-19 16:32:45.194 [trace] Received response 'textDocument/foldingRange - (105)' in 1ms.
+2025-12-19 16:32:45.231 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:45.231 [trace] Sending request 'textDocument/diagnostic - (106)'.
+2025-12-19 16:32:45.232 [trace] Received response 'textDocument/diagnostic - (106)' in 1ms.
+2025-12-19 16:32:45.246 [trace] Sending request 'textDocument/completion - (107)'.
+2025-12-19 16:32:45.246 [trace] Received response 'textDocument/completion - (107)' in 0ms.
+2025-12-19 16:32:45.433 [trace] Sending request 'textDocument/foldingRange - (108)'.
+2025-12-19 16:32:45.434 [trace] Received response 'textDocument/foldingRange - (108)' in 1ms.
+2025-12-19 16:32:45.584 [trace] Sending request 'textDocument/documentSymbol - (109)'.
+2025-12-19 16:32:45.584 [trace] Sending request 'textDocument/documentSymbol - (110)'.
+2025-12-19 16:32:45.584 [trace] Received response 'textDocument/documentSymbol - (109)' in 0ms.
+2025-12-19 16:32:45.585 [trace] Received response 'textDocument/documentSymbol - (110)' in 1ms.
+2025-12-19 16:32:45.589 [trace] Sending request 'textDocument/documentColor - (111)'.
+2025-12-19 16:32:45.590 [trace] Received response 'textDocument/documentColor - (111)' in 1ms.
+2025-12-19 16:32:46.234 [trace] Sending request 'textDocument/documentLink - (112)'.
+2025-12-19 16:32:46.235 [trace] Received response 'textDocument/documentLink - (112)' in 1ms.
+2025-12-19 16:32:48.099 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:48.099 [trace] Sending request 'textDocument/diagnostic - (113)'.
+2025-12-19 16:32:48.099 [trace] Received response 'textDocument/diagnostic - (113)' in 0ms.
+2025-12-19 16:32:48.301 [trace] Sending request 'textDocument/foldingRange - (114)'.
+2025-12-19 16:32:48.301 [trace] Received response 'textDocument/foldingRange - (114)' in 0ms.
+2025-12-19 16:32:48.374 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:48.374 [trace] Sending request 'textDocument/diagnostic - (115)'.
+2025-12-19 16:32:48.374 [trace] Received response 'textDocument/diagnostic - (115)' in 0ms.
+2025-12-19 16:32:48.576 [trace] Sending request 'textDocument/foldingRange - (116)'.
+2025-12-19 16:32:48.576 [trace] Received response 'textDocument/foldingRange - (116)' in 0ms.
+2025-12-19 16:32:48.650 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:48.650 [trace] Sending request 'textDocument/diagnostic - (117)'.
+2025-12-19 16:32:48.651 [trace] Received response 'textDocument/diagnostic - (117)' in 1ms.
+2025-12-19 16:32:48.802 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:48.802 [trace] Sending request 'textDocument/diagnostic - (118)'.
+2025-12-19 16:32:48.802 [trace] Received response 'textDocument/diagnostic - (118)' in 0ms.
+2025-12-19 16:32:48.813 [trace] Sending request 'textDocument/completion - (119)'.
+2025-12-19 16:32:48.816 [trace] Received response 'textDocument/completion - (119)' in 3ms.
+2025-12-19 16:32:48.903 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:48.903 [trace] Sending request 'textDocument/diagnostic - (120)'.
+2025-12-19 16:32:48.904 [trace] Received response 'textDocument/diagnostic - (120)' in 1ms.
+2025-12-19 16:32:48.917 [trace] Sending request 'textDocument/completion - (121)'.
+2025-12-19 16:32:48.918 [trace] Received response 'textDocument/completion - (121)' in 1ms.
+2025-12-19 16:32:49.101 [trace] Sending request 'textDocument/documentColor - (122)'.
+2025-12-19 16:32:49.102 [trace] Received response 'textDocument/documentColor - (122)' in 1ms.
+2025-12-19 16:32:49.105 [trace] Sending request 'textDocument/foldingRange - (123)'.
+2025-12-19 16:32:49.105 [trace] Received response 'textDocument/foldingRange - (123)' in 0ms.
+2025-12-19 16:32:49.193 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:49.193 [trace] Sending request 'textDocument/diagnostic - (124)'.
+2025-12-19 16:32:49.194 [trace] Received response 'textDocument/diagnostic - (124)' in 1ms.
+2025-12-19 16:32:49.207 [trace] Sending request 'textDocument/completion - (125)'.
+2025-12-19 16:32:49.208 [trace] Received response 'textDocument/completion - (125)' in 1ms.
+2025-12-19 16:32:49.395 [trace] Sending request 'textDocument/foldingRange - (126)'.
+2025-12-19 16:32:49.395 [trace] Received response 'textDocument/foldingRange - (126)' in 0ms.
+2025-12-19 16:32:49.546 [trace] Sending request 'textDocument/documentSymbol - (127)'.
+2025-12-19 16:32:49.546 [trace] Sending request 'textDocument/documentSymbol - (128)'.
+2025-12-19 16:32:49.547 [trace] Received response 'textDocument/documentSymbol - (127)' in 0ms.
+2025-12-19 16:32:49.547 [trace] Received response 'textDocument/documentSymbol - (128)' in 1ms.
+2025-12-19 16:32:50.195 [trace] Sending request 'textDocument/documentLink - (129)'.
+2025-12-19 16:32:50.195 [trace] Sending request 'textDocument/documentColor - (130)'.
+2025-12-19 16:32:50.196 [trace] Received response 'textDocument/documentLink - (129)' in 0ms.
+2025-12-19 16:32:50.196 [trace] Received response 'textDocument/documentColor - (130)' in 1ms.
+2025-12-19 16:32:51.023 [trace] Sending request 'textDocument/hover - (131)'.
+2025-12-19 16:32:51.024 [trace] Received response 'textDocument/hover - (131)' in 1ms.
+2025-12-19 16:32:53.459 [trace] Sending request 'textDocument/hover - (132)'.
+2025-12-19 16:32:53.460 [trace] Received response 'textDocument/hover - (132)' in 1ms.
+2025-12-19 16:32:54.067 [trace] Sending request 'textDocument/hover - (133)'.
+2025-12-19 16:32:54.067 [trace] Received response 'textDocument/hover - (133)' in 0ms.
+2025-12-19 16:32:55.120 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:55.120 [trace] Sending request 'textDocument/diagnostic - (134)'.
+2025-12-19 16:32:55.121 [trace] Received response 'textDocument/diagnostic - (134)' in 1ms.
+2025-12-19 16:32:55.322 [trace] Sending request 'textDocument/foldingRange - (135)'.
+2025-12-19 16:32:55.323 [trace] Received response 'textDocument/foldingRange - (135)' in 1ms.
+2025-12-19 16:32:55.473 [trace] Sending request 'textDocument/documentSymbol - (136)'.
+2025-12-19 16:32:55.473 [trace] Sending request 'textDocument/documentSymbol - (137)'.
+2025-12-19 16:32:55.473 [trace] Received response 'textDocument/documentSymbol - (136)' in 0ms.
+2025-12-19 16:32:55.474 [trace] Received response 'textDocument/documentSymbol - (137)' in 1ms.
+2025-12-19 16:32:56.122 [trace] Sending request 'textDocument/documentLink - (138)'.
+2025-12-19 16:32:56.123 [trace] Received response 'textDocument/documentLink - (138)' in 1ms.
+2025-12-19 16:32:56.124 [trace] Sending request 'textDocument/documentColor - (139)'.
+2025-12-19 16:32:56.124 [trace] Received response 'textDocument/documentColor - (139)' in 0ms.
+2025-12-19 16:32:56.384 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:56.384 [trace] Sending request 'textDocument/diagnostic - (140)'.
+2025-12-19 16:32:56.385 [trace] Received response 'textDocument/diagnostic - (140)' in 1ms.
+2025-12-19 16:32:56.586 [trace] Sending request 'textDocument/foldingRange - (141)'.
+2025-12-19 16:32:56.586 [trace] Received response 'textDocument/foldingRange - (141)' in 0ms.
+2025-12-19 16:32:56.642 [trace] Sending notification 'textDocument/didChange'.
+2025-12-19 16:32:56.642 [trace] Sending request 'textDocument/diagnostic - (142)'.
+2025-12-19 16:32:56.642 [trace] Received response 'textDocument/diagnostic - (142)' in 0ms.
+2025-12-19 16:32:56.845 [trace] Sending request 'textDocument/foldingRange - (143)'.
+2025-12-19 16:32:56.845 [trace] Received response 'textDocument/foldingRange - (143)' in 1ms.
+2025-12-19 16:32:56.995 [trace] Sending request 'textDocument/documentSymbol - (144)'.
+2025-12-19 16:32:56.995 [trace] Sending request 'textDocument/documentSymbol - (145)'.
+2025-12-19 16:32:56.995 [trace] Received response 'textDocument/documentSymbol - (144)' in 0ms.
+2025-12-19 16:32:56.996 [trace] Received response 'textDocument/documentSymbol - (145)' in 1ms.
+2025-12-19 16:32:57.387 [trace] Sending request 'textDocument/documentColor - (146)'.
+2025-12-19 16:32:57.387 [trace] Received response 'textDocument/documentColor - (146)' in 0ms.
+2025-12-19 16:32:57.645 [trace] Sending request 'textDocument/documentLink - (147)'.
+2025-12-19 16:32:57.645 [trace] Received response 'textDocument/documentLink - (147)' in 0ms.
+2025-12-19 16:32:58.084 [trace] Sending request 'textDocument/hover - (148)'.
+2025-12-19 16:32:58.085 [trace] Received response 'textDocument/hover - (148)' in 1ms.
+2025-12-19 16:32:58.597 [trace] Sending notification 'textDocument/didSave'.

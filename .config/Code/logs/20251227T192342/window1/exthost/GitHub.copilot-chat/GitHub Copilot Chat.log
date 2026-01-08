@@ -1,0 +1,138 @@
+2025-12-27 19:23:47.894 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-27 19:23:47.894 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-27 19:23:47.894 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-27 19:23:47.894 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-27 19:23:47.961 [warning] GitHub login failed
+2025-12-27 19:23:48.284 [error] Copilot extension not found
+2025-12-27 19:23:48.309 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64
+2025-12-27 19:23:48.309 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2025-12-27 19:23:48.314 [info] Found 1 entries to copy: rg
+2025-12-27 19:23:48.316 [warning] GitHub login failed
+2025-12-27 19:23:48.319 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async V1.waitForChatEnabled (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:5093)
+	at async V1.run (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4977)
+	at async F7.askToUpgradeAuthPermissions (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4456): Failed to get copilot token
+2025-12-27 19:23:48.319 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-12-27 19:23:48.319 [info] Using the Electron fetcher.
+2025-12-27 19:23:48.319 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-27 19:23:48.319 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async l$._getToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5639)
+	at async r (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5103)
+	at async l$._registerEmbeddings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5600)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async q2.waitForActivationBlockers (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3061)
+	at async /home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3820
+	at async Skt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3688)
+	at async Ky.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async Ky.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async Ky.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2025-12-27 19:23:48.319 [info] activationBlocker from 'languageModelAccess' took for 58ms
+2025-12-27 19:23:48.320 [info] Found 1 entries to copy: pty.node
+2025-12-27 19:23:48.692 [error] [CopilotCLISession] Failed to fetch models: Error: Failed to get token for auth info
+2025-12-27 19:23:59.440 [error] Canceled: Canceled
+	at Yl (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121921
+	at Array.forEach (<anonymous>)
+	at l5.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121861)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10208)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-12-27 19:24:01.501 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-27 19:24:01.577 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-27 19:24:01.577 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-27 19:24:01.577 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-27 19:24:01.599 [error] Error getting a session: Canceled: Canceled
+2025-12-27 19:24:01.677 [warning] GitHub login failed
+2025-12-27 19:24:02.010 [error] Copilot extension not found
+2025-12-27 19:24:02.039 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64
+2025-12-27 19:24:02.039 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2025-12-27 19:24:02.067 [info] Found 1 entries to copy: pty.node
+2025-12-27 19:24:02.067 [info] Found 1 entries to copy: rg
+2025-12-27 19:24:02.092 [warning] GitHub login failed
+2025-12-27 19:24:02.094 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async V1.waitForChatEnabled (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:5093)
+	at async V1.run (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4977)
+	at async F7.askToUpgradeAuthPermissions (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4456): Failed to get copilot token
+2025-12-27 19:24:02.094 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-12-27 19:24:02.094 [info] Using the Electron fetcher.
+2025-12-27 19:24:02.094 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-27 19:24:02.094 [error] Error: GitHubLoginFailed
+	at hH._authShowWarnings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:33644)
+	at async hH.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31517)
+	at async YX.getCopilotToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2402)
+	at async l$._getToken (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5639)
+	at async r (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5103)
+	at async l$._registerEmbeddings (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1219:5600)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async q2.waitForActivationBlockers (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3061)
+	at async /home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3820
+	at async Skt (/home/5ub4k3m1/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3688)
+	at async Ky.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async Ky.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async Ky.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2025-12-27 19:24:02.094 [info] activationBlocker from 'languageModelAccess' took for 107ms
+2025-12-27 19:24:02.481 [error] [CopilotCLISession] Failed to fetch models: Error: Failed to get token for auth info
+2025-12-27 19:24:11.521 [info] Logged in as Leinad745
+2025-12-27 19:24:11.857 [info] Got Copilot token for Leinad745
+2025-12-27 19:24:11.857 [info] Copilot Chat: 0.35.2, VS Code: 1.107.1
+2025-12-27 19:24:12.011 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-12-27 19:24:12.011 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-12-27 19:24:12.028 [info] Registering default platform agent...
+2025-12-27 19:24:12.029 [info] [code-referencing] Public code references are enabled.
+2025-12-27 19:24:12.029 [info] activationBlocker from 'conversationFeature' took for 10045ms
+2025-12-27 19:24:12.058 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-12-27 19:24:12.325 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-12-27 19:24:12.329 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-12-27 19:24:12.591 [info] Fetched model metadata in 581ms 477b5677-3787-479e-969e-13a534ea6cec
+2025-12-27 19:24:12.932 [info] Latest entry: ccreq:latest.copilotmd
+2025-12-27 19:24:12.932 [info] ccreq:0a0cd6b5.copilotmd | markdown
+2025-12-27 19:24:18.546 [info] Refetch model metadata: Succeeded in 603ms c26cc958-2cdc-4946-a1fe-5504f025ffb2 (5EAC:1434D:8F7C93:D23DA5:69505C92) using node-fetch with status 200.
+2025-12-27 19:24:19.089 [info] Refetch model metadata: Succeeded in 543ms 0da24908-5be6-4210-a72a-af969d3839de (5F3C:22C775:8E3D2C:D10428:69505C92) using node-http with status 200.
+2025-12-27 19:24:19.631 [info] Refetch model metadata: Succeeded in 541ms 65e1f6cb-f845-48d1-b54a-da809f39ae3d (5F2C:38545B:8B2652:CDBF28:69505C8C) using electron-fetch with status 200.
+2025-12-27 19:24:35.543 [warning] [relatedFiles] unknown language ignore
+2025-12-27 19:24:35.813 [info] [fetchCompletions] Request 45289412-3704-45fe-b624-3fa50a48459f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.7543369999985ms
+2025-12-27 19:24:35.817 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-27 19:24:36.469 [info] [fetchCompletions] Request ff242ab8-631b-4bcb-a0d0-22fd16c0f063 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.38822000000073ms
+2025-12-27 19:24:36.472 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-27 19:24:38.746 [info] message 0 returned. finish reason: [stop]
+2025-12-27 19:24:38.746 [info] request done: requestId: [472702b5-5ec2-4d6e-8c11-fed1d2484eb9] model deployment ID: []
+2025-12-27 19:24:39.001 [info] ccreq:86a53f12.copilotmd | success | copilot-nes-oct | 585ms | [XtabProvider]
+2025-12-27 19:24:40.004 [info] ccreq:8c7a5e9f.copilotmd | markdown
+2025-12-27 19:24:51.583 [info] [fetchCompletions] Request 96b53f46-322c-408e-99c4-3e737329e7f3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 292.4382560000013ms
+2025-12-27 19:24:51.594 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-27 19:24:53.820 [info] message 0 returned. finish reason: [stop]
+2025-12-27 19:24:53.820 [info] request done: requestId: [2bc7a048-ddd9-4cf8-a6a4-6b456cf7ee14] model deployment ID: []
+2025-12-27 19:24:53.822 [info] ccreq:4691de61.copilotmd | success | copilot-nes-oct | 335ms | [XtabProvider]
+2025-12-27 19:24:54.019 [info] ccreq:ffc918f4.copilotmd | markdown
+2025-12-27 19:25:00.519 [info] [fetchCompletions] Request 86f73bbe-6307-4f85-b335-ad458814af27 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 245.45103099999687ms
+2025-12-27 19:25:00.521 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-27 19:25:01.270 [info] ccreq:ffe803b9.copilotmd | markdown
+2025-12-27 19:25:23.810 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-27 19:25:23.810 [info] request done: requestId: [3cd33850-02e3-4abd-9796-5392a50ba38f] model deployment ID: []
+2025-12-27 19:25:23.811 [info] ccreq:68100491.copilotmd | success | claude-haiku-4.5 | 4488ms | [panel/editAgent]
+2025-12-27 19:25:25.604 [info] message 0 returned. finish reason: [stop]
+2025-12-27 19:25:25.604 [info] request done: requestId: [9ea6e592-49a9-46b7-b20f-1675c5f726b5] model deployment ID: []
+2025-12-27 19:25:25.605 [info] ccreq:316c6915.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 409ms | [copilotLanguageModelWrapper]
+2025-12-27 19:25:26.823 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-27 19:25:26.823 [info] request done: requestId: [3cd33850-02e3-4abd-9796-5392a50ba38f] model deployment ID: []
+2025-12-27 19:25:26.824 [info] ccreq:38d4a732.copilotmd | success | claude-haiku-4.5 | 2942ms | [panel/editAgent]
+2025-12-27 19:25:29.401 [info] message 0 returned. finish reason: [stop]
+2025-12-27 19:25:29.401 [info] request done: requestId: [3cd33850-02e3-4abd-9796-5392a50ba38f] model deployment ID: []
+2025-12-27 19:25:29.402 [info] ccreq:acf8a70d.copilotmd | success | claude-haiku-4.5 | 2507ms | [panel/editAgent]
+2025-12-27 19:25:29.868 [info] message 0 returned. finish reason: [stop]
+2025-12-27 19:25:29.868 [info] request done: requestId: [e94d51d9-f19e-4091-93df-178538e2789a] model deployment ID: []
+2025-12-27 19:25:29.869 [info] ccreq:709c8d48.copilotmd | success | gpt-4o-mini-2024-07-18 | 452ms | [title]

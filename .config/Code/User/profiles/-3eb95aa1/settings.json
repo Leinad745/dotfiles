@@ -1,0 +1,10 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorTheme": "Void",
+    "workbench.statusBar.visible": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false
+}

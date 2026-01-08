@@ -1,0 +1,17 @@
+2025-12-19 17:06:33.764 [info] Started local extension host with pid 53115.
+2025-12-19 17:06:34.175 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-19 17:06:34.398 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-19 17:06:36.440 [info] [perf] Render performance baseline is 17ms
+2025-12-19 17:06:40.056 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay
+2025-12-19 17:06:47.050 [info] Started local extension host with pid 53313.
+2025-12-19 17:06:49.713 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-19 17:06:55.909 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-19 17:08:49.154 [error] [Extension Host] (node:53313) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-19 17:08:49.154 [error] [Extension Host] (node:53313) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-19 17:08:50.041 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-19 17:08:51.071 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-19 17:09:04.166 [error] An unknown error occurred. Please consult the log for more details.

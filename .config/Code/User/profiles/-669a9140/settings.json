@@ -1,0 +1,17 @@
+{
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.colorTheme": "Void",
+    "sqldeveloper.telemetry.enabled": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "mdb.confirmRunAll": false,
+    "mdb.confirmDeleteDocument": false
+}

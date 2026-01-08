@@ -1,0 +1,24 @@
+2025-12-27 19:23:43.290 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-12-27 19:23:43.460 [info] Started local extension host with pid 66184.
+2025-12-27 19:23:44.161 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-27 19:23:44.369 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-27 19:23:46.103 [info] [perf] Render performance baseline is 18ms
+2025-12-27 19:23:47.592 [error] [Extension Host] (node:66184) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-27 19:23:47.593 [error] [Extension Host] (node:66184) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-27 19:23:48.308 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-27 19:23:49.321 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-27 19:23:59.444 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-27 19:23:59.444 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-27 19:23:59.445 [warning] Failed to update in-progress status for chat session type 'copilot-cloud-agent': Canceled
+2025-12-27 19:23:59.823 [warning] No search provider registered for scheme: file, waiting
+2025-12-27 19:24:00.102 [info] Started local extension host with pid 66676.
+2025-12-27 19:24:00.221 [info] Auto updating outdated extensions. pkief.material-icon-theme
+2025-12-27 19:24:01.258 [error] [Extension Host] (node:66676) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-27 19:24:01.259 [error] [Extension Host] (node:66676) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-27 19:24:02.038 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-27 19:24:02.822 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-27 19:24:12.676 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-27 19:24:12.677 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-27 19:25:17.207 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.

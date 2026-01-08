@@ -1,0 +1,12 @@
+[general]
+#Los temas estan en ~/.config/alacritty/alacritty-theme/themes/, cambia lo de acuerdo
+
+import = [
+	"/home/5ub4k3m1/.config/alacritty/alacritty-theme/themes/monokai_charcoal.toml"
+]
+
+[font]
+size = 14
+
+[window]
+opacity = 0.9

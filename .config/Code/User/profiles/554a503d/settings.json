@@ -1,0 +1,8 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.colorTheme": "Void",
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.statusBar.visible": false,
+    "python.defaultInterpreterPath": "/bin/python"
+}

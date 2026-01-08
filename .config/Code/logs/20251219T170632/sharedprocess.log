@@ -1,0 +1,5 @@
+2025-12-19 17:06:34.381 [info] Marked extension as removed ms-python.python-2025.20.0-linux-x64
+2025-12-19 17:06:34.471 [info] Deleted marked for removal extension from disk ms-python.python /home/5ub4k3m1/.vscode/extensions/ms-python.python-2025.20.0-linux-x64
+2025-12-19 17:08:47.961 [info] Getting Manifest... ms-python.python
+2025-12-19 17:08:47.996 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/5ub4k3m1/.config/Code/User/profiles/554a503d/extensions.json","path":"/home/5ub4k3m1/.config/Code/User/profiles/554a503d/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2025-12-10T07:43:47.883Z"}}
+2025-12-19 17:08:48.153 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/5ub4k3m1/.config/Code/User/profiles/554a503d/extensions.json

@@ -1,0 +1,30 @@
+[Error - 4:30:23 p. m.] [object Object]
+[Info  - 4:30:23 p. m.] 1
+initVersion
+v0.8.32+commit.ebbd65e5
+[Info  - 4:30:24 p. m.] Validating using the compiler selected: remote
+[Info  - 4:30:24 p. m.] Validating using compiler version: 0.8.32+commit.ebbd65e5.Emscripten.clang
+pluginsConfig: undefined
+[solhint] Warning: invalid configuration for rule 'func-visibility':
+ENUM should be equal to one of the allowed values
+(error, warn, off)
+
+  1 | {
+> 2 |   "severity": false
+    |               ^^^^^ 👈🏽  Unexpected value, should be equal to one of the allowed values
+  3 | }
+[Info  - 4:30:24 p. m.] Validating using the compiler selected: remote
+[Info  - 4:30:24 p. m.] Validating using compiler version: 0.8.32+commit.ebbd65e5.Emscripten.clang
+[Info  - 4:30:24 p. m.] Validating using compiler selected version: v0.8.32+commit.ebbd65e5
+pluginsConfig: undefined
+[solhint] Warning: invalid configuration for rule 'func-visibility':
+ENUM should be equal to one of the allowed values
+(error, warn, off)
+
+  1 | {
+> 2 |   "severity": false
+    |               ^^^^^ 👈🏽  Unexpected value, should be equal to one of the allowed values
+  3 | }
+[Info  - 4:30:25 p. m.] Validating using the compiler selected: remote
+[Info  - 4:30:25 p. m.] Validating using compiler version: 0.8.32+commit.ebbd65e5.Emscripten.clang
+[Info  - 4:30:25 p. m.] Validating using compiler selected version: v0.8.32+commit.ebbd65e5

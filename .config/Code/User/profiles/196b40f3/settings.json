@@ -1,0 +1,25 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.colorTheme": "Void",
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.statusBar.visible": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "cSpell.language": "en,es-ES",
+    "cSpell.userWords": [
+        "Ciberseguridad",
+        "pentest",
+        "pentesting",
+        "Pentesting"
+    ]
+}

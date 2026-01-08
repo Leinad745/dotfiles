@@ -1,0 +1,31 @@
+2025-12-19 17:04:01.203 [info] Started local extension host with pid 50316.
+2025-12-19 17:04:02.419 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-19 17:04:02.548 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-19 17:04:02.906 [error] [Extension Host] (node:50316) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-19 17:04:02.906 [error] [Extension Host] (node:50316) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-19 17:04:03.787 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-19 17:04:03.917 [info] [perf] Render performance baseline is 20ms
+2025-12-19 17:04:05.224 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-19 17:04:05.906 [error] Canceled: Canceled
+    at k1 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37681
+    at Array.forEach (<anonymous>)
+    at zRt.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37621)
+    at e$e.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:49298)
+    at fSn.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7731)
+    at uSn.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7033)
+    at async wLt.tb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3900:15950)
+    at async wLt.ub (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3900:16347)
+    at async WZe.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1361:90381)
+2025-12-19 17:04:05.911 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-19 17:04:05.911 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-19 17:04:05.911 [warning] Failed to update in-progress status for chat session type 'copilot-cloud-agent': Canceled
+2025-12-19 17:04:06.133 [warning] No search provider registered for scheme: file, waiting
+2025-12-19 17:04:06.202 [info] Started local extension host with pid 50741.
+2025-12-19 17:04:06.424 [info] Auto updating outdated extensions. ms-python.python
+2025-12-19 17:04:07.558 [error] [Extension Host] (node:50741) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-19 17:04:07.559 [error] [Extension Host] (node:50741) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-19 17:04:08.800 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-19 17:04:09.261 [error] An unknown error occurred. Please consult the log for more details.

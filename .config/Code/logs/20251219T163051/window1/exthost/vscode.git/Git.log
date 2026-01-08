@@ -1,0 +1,68 @@
+2025-12-19 16:30:55.378 [info] [main] Log level: Trace
+2025-12-19 16:30:55.378 [info] [main] Validating found git in: "git"
+2025-12-19 16:30:55.378 [info] [main] Using git "2.52.0" from "git"
+2025-12-19 16:30:55.378 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-19 16:30:55.378 [trace] [Model][doInitialScan] Settings: autoRepositoryDetection=true, openRepositoryInParentFolders=prompt
+2025-12-19 16:30:55.378 [trace] [Model][onDidChangeWorkspaceFolders] Workspace folders: [/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection]
+2025-12-19 16:30:55.378 [trace] [Model][onDidChangeVisibleTextEditors] Open repository for editor resource /home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection/NotADemocraticElection.sol
+2025-12-19 16:30:55.378 [trace] [Model][scanWorkspaceFolders] Workspace folder: /home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection
+2025-12-19 16:30:55.378 [trace] [Model][openRepository] Repository: /home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection
+2025-12-19 16:30:55.378 [trace] [Model][scanWorkspaceFolders] Workspace scan settings: repositoryScanMaxDepth=1; repositoryScanIgnoredFolders=[node_modules]; scanRepositories=[]
+2025-12-19 16:30:55.378 [trace] [Model][scanWorkspaceFolders] Workspace scan sub folders: [/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection/.vscode]
+2025-12-19 16:30:55.378 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-19 16:30:55.378 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-19 16:30:55.378 [trace] [Model][openRepository] Opening repository for path='/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection' failed. Error:Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+2025-12-19 16:30:55.378 [trace] [Model][openRepository] Repository: /home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection
+2025-12-19 16:30:55.378 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-19 16:30:55.378 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-19 16:30:55.378 [trace] [Model][openRepository] Opening repository for path='/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection' failed. Error:Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+2025-12-19 16:30:55.378 [trace] [Model][openRepository] Repository: /home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection/.vscode
+2025-12-19 16:30:55.378 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-19 16:30:55.378 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-19 16:30:55.378 [trace] [Model][openRepository] Opening repository for path='/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection/.vscode' failed. Error:Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+2025-12-19 16:30:55.378 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-19 16:30:55.901 [trace] [Model][onDidChangeConfiguration] Workspace folders: [/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection]
+2025-12-19 16:30:55.901 [trace] [Model][openRepository] Repository: /home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection
+2025-12-19 16:30:56.122 [info] > git rev-parse --show-toplevel [214ms]
+2025-12-19 16:30:56.122 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-19 16:30:56.122 [trace] [Model][openRepository] Opening repository for path='/home/5ub4k3m1/ciberseguridad/htb/CTFs/Try Out/blockchain_notademocraticelection' failed. Error:Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+2025-12-19 16:32:15.592 [trace] [Model][onDidChangeVisibleTextEditors] Open repository for editor resource /home/5ub4k3m1/.vscode/argv.json
+2025-12-19 16:32:15.592 [trace] [Model][openRepository] Repository: /home/5ub4k3m1/.vscode
+2025-12-19 16:32:15.602 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-19 16:32:15.602 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-19 16:32:15.602 [trace] [Model][openRepository] Opening repository for path='/home/5ub4k3m1/.vscode' failed. Error:Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
